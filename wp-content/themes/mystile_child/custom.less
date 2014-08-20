@@ -179,14 +179,13 @@ Masthead
     border: 0; text-align: center; color: #fff; font-weight: bold; height: 57px;
     font-family: @lato; font-size: 14px; text-transform: uppercase;
   }
-}
-
-#header #navigation ul.nav > li a:hover {
-  background: none; color: @amano-light-blue;
-}
-#header #navigation ul.nav > li.current-menu-item > a,
-#header #navigation ul.nav > li.current_page_item > a {
-  color: @amano-light-orange; font-weight: bold;
+  ul.nav > li a:hover {
+    background: none; color: @amano-light-blue;
+  }
+  ul.nav > li.current-menu-item > a,
+  ul.nav > li.current_page_item > a {
+    color: @amano-light-orange; font-weight: bold;
+  }
 }
 
 /* Sub Menus */
@@ -212,7 +211,7 @@ Masthead
     font-size: .857em; margin-left: .618em; content: ";";
     color: #fff; font-weight: normal;
   }
-#header #navigation ul.nav > li.parent:hover a:after { color: #1e9ead; }
+#header #navigation ul.nav > li.parent:hover a:after { color: @amano-blue; }
 
 
 /*-------------------------------------------------------*

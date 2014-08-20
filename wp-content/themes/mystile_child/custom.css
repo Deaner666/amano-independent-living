@@ -359,7 +359,7 @@ Masthead
   font-weight: normal;
 }
 #header #navigation ul.nav > li.parent:hover a:after {
-  color: #1e9ead;
+  color: #000149;
 }
 /*-------------------------------------------------------*
 Content
