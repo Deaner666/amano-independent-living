@@ -427,71 +427,51 @@ Incidentals
 body.home #breadcrumbs {
   display: none;
 }
-.wooslider {
-  border: none;
-  -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  -moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  -o-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
-}
-/* Clearfix for Wooslider */
-.wooslider:before,
-.wooslider:after {
-  content: " ";
-  /* 1 */
-  display: table;
-  /* 2 */
-}
-.wooslider:after {
-  clear: both;
-}
-/* For IE 6/7 only */
-.wooslider {
-  *zoom: 1;
-}
-.browse-maps-button {
-  opacity: 0.5;
-  border: none !important;
-}
-.browse-maps-button:hover {
-  opacity: 1;
-}
 .indented {
   margin-left: 3em;
 }
 /* Generic feature blocks */
-.mid-grey {
-  background: #eaedf0;
-}
-.light-grey {
-  background: #f5f8fa;
-}
 .full-width-feature {
   margin-right: -2%;
   margin-left: -2%;
-  padding: 4% 2% 0 2%;
+  padding: 0 5% 0 5%;
+  clear: both;
+  text-align: center;
+}
+.full-width-feature:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
   clear: both;
 }
 .full-width-feature h1 {
-  color: #e60600;
+  color: #fff;
 }
 .full-width-feature h2 {
   font-size: 1.4em;
+  color: #fff;
+  line-height: 1.7;
+  text-transform: none;
+}
+.full-width-feature p {
+  color: #fff;
+}
+.full-width-feature ul {
+  text-align: left;
+  margin-left: 2.2em;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 1.15em;
 }
 .full-width-feature .blurb {
   width: 24%;
   text-align: center;
 }
-.full-width-feature .blurb ul {
-  text-align: left;
-  margin-left: 2.2em;
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.15em;
-}
 .full-width-feature img {
   width: 74%;
   height: auto;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
   border: none;
 }
@@ -501,49 +481,141 @@ body.home #breadcrumbs {
 .full-width-feature .pull-right {
   float: right;
 }
+.dark {
+  background: #000149;
+}
+.light {
+  background: #fff;
+}
+.light h1 {
+  color: #000149;
+}
+.light h2 {
+  font-size: 1.4em;
+  color: #000149;
+  line-height: 1.7;
+}
+.light p {
+  color: #000149;
+}
+.light ul {
+  text-align: left;
+  margin-left: 2.2em;
+  color: #000149;
+  font-family: "Lato", sans-serif;
+  font-size: 1.15em;
+}
+.light .blurb {
+  width: 24%;
+  text-align: center;
+}
+.feature-button a {
+  display: block;
+  border: 2px solid #000149;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 200px;
+  padding: 10px;
+  margin-right: 15px;
+  text-align: center;
+  color: #000149;
+  background: #fff;
+}
+.feature-button a:hover {
+  color: #ff9e21;
+}
 /* Specific feature block overrides */
-#choose-your-perfect-print {
-  padding-top: 8%;
+#independent-living img {
+  width: 60%;
+  margin-top: 30px;
 }
-#choose-your-perfect-print .blurb {
-  margin-top: 3%;
+#home-page-lede-buttons {
+  clear: both;
+  margin-top: -80px;
 }
-#pick-your-product {
-  padding: 0 5% 0 0;
-  margin-bottom: 3.236em;
+#home-page-lede-buttons #help-me-choose {
+  float: left;
 }
-#pick-your-product img {
-  width: 64%;
+#home-page-lede-buttons #ready-to-shop {
+  float: right;
 }
-#pick-your-product .blurb {
-  width: 34%;
-  margin-top: 10%;
+#your-peace-of-mind {
+  margin-top: 33px;
+  clear: none;
+  padding-bottom: 40px;
 }
-#add-the-finest-frame {
-  padding-top: 0;
-  padding-left: 0;
+#your-peace-of-mind h1 {
+  padding-top: 80px;
 }
-#add-the-finest-frame img {
-  width: 64%;
+#connections-diagram img {
+  margin-top: -20px;
 }
-#add-the-finest-frame .blurb {
-  width: 34%;
-  margin-top: 10%;
-  margin-right: 2%;
+#making-connections {
+  margin-top: -40px;
+  clear: none;
+  padding-bottom: 40px;
 }
-#add-the-finest-frame .blurb ul {
-  margin-left: 3.65em;
+#making-connections h1 {
+  padding-top: 70px;
 }
-#we-sweat-the-details {
-  margin-bottom: 3.236em;
-  padding-right: 0;
+#preserving-dignity {
+  margin-top: 40px;
 }
-#we-sweat-the-details img {
-  width: 68%;
+#preserving-dignity p {
+  width: 60%;
+  margin-left: 20%;
 }
-#we-sweat-the-details .blurb {
-  margin-top: 6%;
-  width: 30%;
+#home-page-buttons {
+  width: 100%;
+}
+#home-page-buttons:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+#home-page-buttons ul {
+  margin: 0 auto;
+  width: 552px;
+  display: block;
+}
+#home-page-buttons ul li {
+  list-style: none;
+  display: block;
+}
+#home-page-buttons ul li a {
+  display: block;
+  float: left;
+  border: 2px solid #000149;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  width: 150px;
+  padding: 5px 10px 10px 10px;
+  margin-right: 15px;
+  text-align: center;
+  color: #000149;
+  height: 40px;
+}
+#home-page-buttons ul li a:hover {
+  color: #ff9e21;
+}
+#home-page-buttons ul li a#buy-button {
+  padding-top: 14px;
+  padding-bottom: 1px;
+}
+#home-page-buttons ul li a#support-button {
+  padding-top: 14px;
+  padding-bottom: 1px;
+}
+#home-page-buttons ul li:last-child a {
+  margin-right: 0;
 }
 /*-------------------------------------------------------*
 Clearfix
