@@ -281,6 +281,7 @@ Masthead
   background-clip: padding-box;
   z-index: 10;
   height: 70px;
+  /* Sub Menus */
 }
 #header #navigation ul {
   width: 100%;
@@ -324,30 +325,47 @@ Masthead
   color: #ffb800;
   font-weight: bold;
 }
-/* Sub Menus */
 #header #navigation ul.nav ul {
-  background: #fff;
+  background: #e0ebf3;
   border: none;
   width: 150%;
-  -webkit-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.3);
-  -moz-box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.3);
-  box-shadow: 0px 4px 5px rgba(50, 50, 50, 0.3);
+  box-shadow: 3px 4px 8px 0px rgba(50, 50, 50, 0.2);
+  -webkit-box-shadow: 3px 4px 8px 0px rgba(50, 50, 50, 0.2);
   -webkit-border-radius: 4px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius: 4px;
-  -moz-border-radius-topleft: 0;
   border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
   border-top-left-radius: 0;
 }
 #header #navigation ul.nav ul li {
-  width: 100%;
+  width: 93%;
+  border: none !important;
+  background: none;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 0 0 0 3.5%;
 }
 #header #navigation ul.nav ul li a {
   text-align: left;
-  padding: 2% 0 0 5%;
+  padding: 5% 0 0 5%;
+  background: none !important;
+  border: none !important;
+  margin: 0;
 }
 #header #navigation ul.nav ul li a:hover {
-  background: #f7f7f7;
+  background: #000149 !important;
+  color: #fff !important;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 #header #navigation ul.nav > li.parent a:after {
   font-family: 'WebSymbolsRegular';
@@ -360,6 +378,9 @@ Masthead
 }
 #header #navigation ul.nav > li.parent:hover a:after {
   color: #000149;
+}
+#header #navigation ul.nav > li.parent a::before {
+  display: none !important;
 }
 /*-------------------------------------------------------*
 Content
