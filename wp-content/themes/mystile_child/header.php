@@ -39,7 +39,7 @@ global $woo_options, $woocommerce;
 
 	<div id="top">
 		<div class="amano-tel">
-			<span class="small-text">Call us on</span> 01822 600060
+			<span class="small-text">Call us on</span> <span itemprop="telephone">01822 600060</span>
 		</div>
 		<nav class="amano-top-nav" role="navigation">
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>

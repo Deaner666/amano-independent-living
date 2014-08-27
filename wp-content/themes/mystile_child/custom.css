@@ -552,7 +552,7 @@ body.home #breadcrumbs {
   float: right;
 }
 #your-peace-of-mind {
-  margin-top: 33px;
+  margin-top: -33px;
   clear: none;
   padding-bottom: 40px;
 }
@@ -663,6 +663,9 @@ Footer
 }
 .footer-wrap img.footer-logo {
   margin-bottom: 30px;
+}
+.footer-wrap img.footer-card-icons {
+  margin-top: 40px;
 }
 #footer-widgets {
   padding: 3.631em 0 0 0;
