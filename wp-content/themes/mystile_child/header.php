@@ -54,7 +54,7 @@ global $woo_options, $woocommerce;
 
 	    <h1 class="site-title">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/amano-logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+				<img itemprop="logo" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/amano-logo.png" alt="<?php bloginfo( 'name' ); ?>" />
 			</a>
 		</h1>
 
