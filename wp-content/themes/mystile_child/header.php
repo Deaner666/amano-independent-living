@@ -71,9 +71,9 @@ global $woo_options, $woocommerce;
 
 		<div id="social-and-cart">
 			<ul class="social-buttons">
-				<li class="twitter"><a href="#">Twitter</a></li>
-				<li class="facebook"><a href="#">Facebook</a></li>
-				<li class="google-plus"><a href="#">Google+</a></li>
+				<li class="twitter"><a href="https://twitter.com/AmanoTech">Twitter</a></li>
+				<li class="facebook"><a href="https://www.facebook.com/amanotech">Facebook</a></li>
+				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151">Google+</a></li>
 			</ul>
 
 			<div id="colour-picker"></div>
