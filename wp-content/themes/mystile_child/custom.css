@@ -27,10 +27,12 @@ p {
   -moz-hyphens: none;
   hyphens: none;
 }
-#content ul {
+#content ul,
+#content ol {
   margin-left: 1.4em;
 }
-#sidebar ul {
+#sidebar ul,
+#content ol {
   margin-left: 0;
 }
 #wrapper {
