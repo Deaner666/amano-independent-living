@@ -661,6 +661,9 @@ Footer
 .footer-wrap ul.menu li:before {
   content: none;
 }
+.footer-wrap img.footer-logo {
+  margin-bottom: 30px;
+}
 #footer-widgets {
   padding: 3.631em 0 0 0;
 }
