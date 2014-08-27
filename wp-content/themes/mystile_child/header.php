@@ -73,7 +73,7 @@ global $woo_options, $woocommerce;
 			<ul class="social-buttons">
 				<li class="twitter"><a href="https://twitter.com/AmanoTech">Twitter</a></li>
 				<li class="facebook"><a href="https://www.facebook.com/amanotech">Facebook</a></li>
-				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151">Google+</a></li>
+				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151" rel="publisher">Google+</a></li>
 			</ul>
 
 			<div id="colour-picker"></div>
