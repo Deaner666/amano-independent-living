@@ -27,6 +27,7 @@ p {
   -moz-hyphens: none;
   hyphens: none;
 }
+/* List margin overrides */
 #content ul,
 #content ol {
   margin-left: 1.4em;
@@ -539,7 +540,9 @@ body.home #breadcrumbs {
   background: #fff;
 }
 .feature-button a:hover {
-  color: #ff9e21;
+  color: #fff;
+  background: #000149;
+  border-color: #fff;
 }
 /* Specific feature block overrides */
 #independent-living {
@@ -551,7 +554,7 @@ body.home #breadcrumbs {
 }
 #home-page-lede-buttons {
   clear: both;
-  margin-top: -80px;
+  margin-top: -70px;
 }
 #home-page-lede-buttons #help-me-choose {
   float: left;
@@ -560,12 +563,12 @@ body.home #breadcrumbs {
   float: right;
 }
 #your-peace-of-mind {
-  margin-top: -33px;
+  margin-top: 30px;
   clear: none;
   padding-bottom: 40px;
 }
 #your-peace-of-mind h1 {
-  padding-top: 80px;
+  padding-top: 70px;
 }
 #connections-diagram img {
   margin-top: -20px;
@@ -620,15 +623,13 @@ body.home #breadcrumbs {
   text-align: center;
   color: #000149;
   height: 40px;
+  /*&#support-button { padding-top: 14px; padding-bottom: 1px; }*/
 }
 #home-page-buttons ul li a:hover {
-  color: #ff9e21;
+  color: #fff;
+  background: #000149;
 }
 #home-page-buttons ul li a#buy-button {
-  padding-top: 14px;
-  padding-bottom: 1px;
-}
-#home-page-buttons ul li a#support-button {
   padding-top: 14px;
   padding-bottom: 1px;
 }

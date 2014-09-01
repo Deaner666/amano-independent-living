@@ -33,15 +33,17 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     <h2>Enable your loved-one to live independently in their own home. Safely and on their own terms.</h2>
                     <p>Our range of simple in-home sensors and detectors work without any intervention.</p>
                     <img src="wp-content/themes/mystile_child/images/icons/amano-connect-main-icon.png" alt="" />
-                    <div id="home-page-lede-buttons">
-                        <div id="help-me-choose" class="feature-button">
-                            <a href="#">Help Me Choose the Right Products</a>
-                        </div>
-                        <div id="ready-to-shop" class="feature-button">
-                            <a href="#">I Know What I Want. I'm Ready to Shop</a>
-                        </div>
-                    </div>
+                    
                 </article>
+
+                <div id="home-page-lede-buttons">
+                    <div id="help-me-choose" class="feature-button">
+                        <a href="#">Help Me Choose the Right Products</a>
+                    </div>
+                    <div id="ready-to-shop" class="feature-button">
+                        <a href="#">I Know What I Want. <br />I'm Ready to Shop</a>
+                    </div>
+                </div>
 
                 <article class="full-width-feature dark" id="your-peace-of-mind">
                     <h1>Your Peace-of-Mind</h1>

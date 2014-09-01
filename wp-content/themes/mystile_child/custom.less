@@ -293,7 +293,7 @@ body.home #breadcrumbs { display: none; }
     display: block; border: 2px solid @amano-blue;
     .border_radius(6px); width: 200px; padding: 10px; margin-right: 15px;
     text-align: center; color: @amano-blue; background: #fff;
-    &:hover { color: @amano-dark-orange; }
+    &:hover { color: #fff; background: @amano-blue; border-color: #fff; }
   }
 }
 
@@ -303,13 +303,13 @@ body.home #breadcrumbs { display: none; }
   img { width: 60%; margin-top: 30px; }
 }
 #home-page-lede-buttons {
-  clear: both; margin-top: -80px;
+  clear: both; margin-top: -70px;
   #help-me-choose { float: left; }
   #ready-to-shop { float: right; }
 }
 #your-peace-of-mind {
-  margin-top: -33px; clear: none; padding-bottom: 40px;
-  h1 { padding-top: 80px; }
+  margin-top: 30px; clear: none; padding-bottom: 40px;
+  h1 { padding-top: 70px; }
 }
 #connections-diagram img { margin-top: -20px; }
 #making-connections {
@@ -332,9 +332,9 @@ body.home #breadcrumbs { display: none; }
         display: block; float: left; border: 2px solid @amano-blue;
         .border_radius(6px); width: 150px; padding: 5px 10px 10px 10px; margin-right: 15px;
         text-align: center; color: @amano-blue; height: 40px;
-        &:hover { color: @amano-dark-orange; }
+        &:hover { color: #fff; background: @amano-blue; }
         &#buy-button { padding-top: 14px; padding-bottom: 1px; }
-        &#support-button { padding-top: 14px; padding-bottom: 1px; }
+        /*&#support-button { padding-top: 14px; padding-bottom: 1px; }*/
       }
       &:last-child a { margin-right: 0; }
     }
