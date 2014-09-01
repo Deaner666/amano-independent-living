@@ -286,8 +286,8 @@ Masthead
   margin: 0 0 40px 0;
   padding: 0;
   background: #000149;
-  -webkit-border-radius: 0;
-  border-radius: 0;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
