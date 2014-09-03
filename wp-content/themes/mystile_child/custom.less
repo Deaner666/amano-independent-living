@@ -28,7 +28,10 @@ p {
 
 /* List margin overrides */
 #content ul, #content ol { margin-left: 1.4em; }
-#sidebar ul, #sidebar ol { margin-left: 0; }
+#sidebar ul, #sidebar ol {
+  margin-left: 0;
+  ul, ol { margin-left: 1.4em; }
+}
 
 #wrapper { background: none; }
 
@@ -188,6 +191,9 @@ Masthead
   }
   ul.nav > li a:hover {
     background: none; color: @amano-light-blue;
+  }
+  ul.nav > li:first-child:hover, ul.nav > li:first-child a:hover {
+    .border_radius_left(8px);
   }
   ul.nav > li.current-menu-item > a,
   ul.nav > li.current_page_item > a {

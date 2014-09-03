@@ -36,6 +36,12 @@ p {
 #sidebar ol {
   margin-left: 0;
 }
+#sidebar ul ul,
+#sidebar ol ul,
+#sidebar ul ol,
+#sidebar ol ol {
+  margin-left: 1.4em;
+}
 #wrapper {
   background: none;
 }
@@ -331,6 +337,16 @@ Masthead
 #header #navigation ul.nav > li a:hover {
   background: none;
   color: #e0ebf3;
+}
+#header #navigation ul.nav > li:first-child:hover,
+#header #navigation ul.nav > li:first-child a:hover {
+  -webkit-border-top-left-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 #header #navigation ul.nav > li.current-menu-item > a,
 #header #navigation ul.nav > li.current_page_item > a {
