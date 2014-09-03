@@ -440,6 +440,9 @@ Sidebar (inc. Layered Nav)
   border: none;
   border-bottom: 1px solid #e6e6e6;
 }
+#sidebar input.s {
+  margin: 0 .327em 1.1em .327em;
+}
 /*-------------------------------------------------------*
 Gravity forms
 *-------------------------------------------------------*/
