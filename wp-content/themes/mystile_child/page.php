@@ -71,7 +71,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     <ul>
                         <li><a href="" id="choose-button">Help Me Choose the Right Products</a></li>
                         <li><a href="" id="buy-button">Buy Products</a></li>
-                        <li><a href="" id="support-button">Our Support Services</a></li>
+                        <li><a href="" id="support-button">Our Support<br />Services</a></li>
                     </ul>
                 </div>
 
