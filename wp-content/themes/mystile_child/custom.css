@@ -121,7 +121,7 @@ Masthead
 }
 #strap-and-search .strapline {
   font-family: "Lato", sans-serif;
-  font-size: 35px;
+  font-size: 28px;
   font-style: italic;
   color: #000149;
   width: 100%;
@@ -192,8 +192,9 @@ Masthead
   list-style-type: none;
   display: block;
   margin: 10px 2% 10px 0;
-  width: 130.5px;
+  width: 166px;
   float: right;
+  /* Serve retina image on hi-dpi devices */
 }
 #header #social-and-cart ul.social-buttons li a {
   float: left;
@@ -208,17 +209,66 @@ Masthead
   opacity: 1;
 }
 #header #social-and-cart ul.social-buttons li.twitter a {
-  background: url('images/icons/twitter-icon.png') top left no-repeat;
-  background-size: 100% 100%;
+  background: url('images/icons/Social-Icons-Sprite.png') top left no-repeat;
 }
 #header #social-and-cart ul.social-buttons li.facebook a {
-  background: url('images/icons/facebook-icon.png') top left no-repeat;
-  background-size: 100% 100%;
+  background: url('images/icons/Social-Icons-Sprite.png') -35.5px 0 no-repeat;
 }
 #header #social-and-cart ul.social-buttons li.google-plus a {
-  background: url('images/icons/google-plus-icon.png') top left no-repeat;
+  background: url('images/icons/Social-Icons-Sprite.png') -71px 0 no-repeat;
+}
+#header #social-and-cart ul.social-buttons li.youtube a {
+  background: url('images/icons/Social-Icons-Sprite.png') -106.5px 0 no-repeat;
   margin-right: 0;
-  background-size: 100% 100%;
+}
+#header #social-and-cart ul.social-buttons li.twitter a:hover {
+  background: url('images/icons/Social-Icons-Sprite.png') 0 -35.5px no-repeat;
+}
+#header #social-and-cart ul.social-buttons li.facebook a:hover {
+  background: url('images/icons/Social-Icons-Sprite.png') -35.5px -35.5px no-repeat;
+}
+#header #social-and-cart ul.social-buttons li.google-plus a:hover {
+  background: url('images/icons/Social-Icons-Sprite.png') -71px -35.5px no-repeat;
+}
+#header #social-and-cart ul.social-buttons li.youtube a:hover {
+  background: url('images/icons/Social-Icons-Sprite.png') -106.5px -35.5px no-repeat;
+  margin-right: 0;
+}
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #header #social-and-cart ul.social-buttons li.twitter a {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') top left no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.facebook a {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -35.5px 0 no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.google-plus a {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -71px 0 no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.youtube a {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -106.5px 0 no-repeat;
+    margin-right: 0;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.twitter a:hover {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') 0 -35.5px no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.facebook a:hover {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -35.5px -35.5px no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.google-plus a:hover {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -71px -35.5px no-repeat;
+    background-size: 400%;
+  }
+  #header #social-and-cart ul.social-buttons li.youtube a:hover {
+    background: url('images/icons/Social-Icons-Sprite@2x.png') -106.5px -35.5px no-repeat;
+    margin-right: 0;
+    background-size: 400%;
+  }
 }
 #header #social-and-cart #colour-picker {
   height: 23.5px;

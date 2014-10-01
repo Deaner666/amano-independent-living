@@ -59,7 +59,7 @@ global $woo_options, $woocommerce;
 		</h1>
 
 		<div id="strap-and-search">
-			<div class="strapline">Technology for Independent Living</div>
+			<div class="strapline">Technology &bullet; Independence &bullet; Well-being</div>
 		    <?php
 				if ( class_exists( 'woocommerce' ) ) {
 					echo '<ul class="nav wc-nav wc-search">';
@@ -71,9 +71,10 @@ global $woo_options, $woocommerce;
 
 		<div id="social-and-cart">
 			<ul class="social-buttons">
-				<li class="twitter"><a href="https://twitter.com/AmanoTech">Twitter</a></li>
-				<li class="facebook"><a href="https://www.facebook.com/amanotech">Facebook</a></li>
-				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151" rel="publisher">Google+</a></li>
+				<li class="twitter"><a href="https://twitter.com/AmanoTech" target="_blank">Twitter</a></li>
+				<li class="facebook"><a href="https://www.facebook.com/amanotech" target="_blank">Facebook</a></li>
+				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151" target="_blank" rel="publisher">Google+</a></li>
+				<li class="youtube"><a href="https://www.youtube.com/channel/UCfN9j_--o8IMDI4dIbAvkQg" target="_blank">YouTube</a></li>
 			</ul>
 
 			<div id="colour-picker"></div>
