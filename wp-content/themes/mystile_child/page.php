@@ -46,9 +46,9 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                 </div>
 
                 <article class="full-width-feature dark" id="your-peace-of-mind">
-                    <h1>Your Peace-of-Mind</h1>
+                    <h1>Your Peace of Mind</h1>
                     <h2>No more worrying about your loved-one’s wellbeing. No more panicky visits to check they’re OK.</h2>
-                    <p>We provide the reassurance that your loved-one is safe and healthy so you can enjoy your visits in a better frame-of-mind.</p>
+                    <p>We provide the reassurance that your loved-one is safe and healthy so you can enjoy your visits in a better frame of mind.</p>
                 </article>
 
                 <article class="full-width-feature light" id="connections-diagram">
@@ -58,12 +58,12 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                 <article class="full-width-feature dark" id="making-connections">
                     <h1>Making Connections</h1>
                     <h2>We keep you connected to your loved-one and your loved-one connected to the rest of the world.</h2>
-                    <p>Our monitoring products alert you if something is up. Our simple-to-use computing devices help your loved-one connect online.</p>
+                    <p>Our monitoring products alert you if something is up. Our simple to use computing devices help your loved-one connect online.</p>
                 </article>
 
                 <article class="full-width-feature light" id="preserving-dignity">
                     <h1>Preserving Dignity</h1>
-                    <h2>Help maintain quality-of-life. Avoid expensive residential care costs.</h2>
+                    <h2>Help maintain quality of life. Avoid expensive residential care costs.</h2>
                     <p>We’ll help you choose products that cater to your loved-one’s care requirements, keeping them in their own home and out of costly care homes.</p>
                 </article>
 
