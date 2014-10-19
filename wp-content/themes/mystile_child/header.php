@@ -38,10 +38,16 @@ global $woo_options, $woocommerce;
 <div id="wrapper">
 
 	<div id="top">
-		<div class="amano-tel">
-			<span class="small-text">Call us on</span> <span itemprop="telephone">01822 600060</span>
-		</div>
-		<nav class="amano-top-nav" role="navigation">
+		<nav class="amano-top-nav" role="navigation">	
+			<?php
+				if ( class_exists( 'woocommerce' ) ) {
+					echo '<ul class="nav wc-nav wc-cart">';
+					woocommerce_cart_link();
+					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
+					echo '</ul>';
+				}
+			?>
+			
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
 			<?php } ?>
@@ -54,39 +60,16 @@ global $woo_options, $woocommerce;
 
 	    <h1 class="site-title">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<img itemprop="logo" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/amano-logo.png" alt="<?php bloginfo( 'name' ); ?>" />
+				<img itemprop="logo" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/amano-connect-logo-horizontal.png" alt="<?php bloginfo( 'name' ); ?>" />
 			</a>
 		</h1>
 
 		<div id="strap-and-search">
-			<div class="strapline">Technology &bullet; Independence &bullet; Well-being</div>
+			<!-- <div class="strapline">Technology &bullet; Independence &bullet; Well-being</div> -->
 		    <?php
 				if ( class_exists( 'woocommerce' ) ) {
 					echo '<ul class="nav wc-nav wc-search">';
 					echo get_search_form();
-					echo '</ul>';
-				}
-			?>
-		</div>
-
-		<div id="social-and-cart">
-			<ul class="social-buttons">
-				<li class="twitter"><a href="https://twitter.com/AmanoTech" target="_blank">Twitter</a></li>
-				<li class="facebook"><a href="https://www.facebook.com/amanotech" target="_blank">Facebook</a></li>
-				<li class="google-plus"><a href="https://plus.google.com/113521386131973973151" target="_blank" rel="publisher">Google+</a></li>
-				<li class="youtube"><a href="https://www.youtube.com/channel/UCfN9j_--o8IMDI4dIbAvkQg" target="_blank">YouTube</a></li>
-			</ul>
-
-			<div id="colour-picker"></div>
-
-			<div id="font-size-picker"></div>
-
-			<?php
-				if ( class_exists( 'woocommerce' ) ) {
-					echo '<ul class="nav wc-nav wc-cart">';
-					echo '<li class="cart-icon"><img src="'.site_url().'/wp-content/themes/mystile_child/images/icons/cart-icon.png" alt="" /></li>';
-					woocommerce_cart_link();
-					echo '<li class="checkout"><a href="'.esc_url($woocommerce->cart->get_checkout_url()).'">'.__('Checkout','woothemes').'</a></li>';
 					echo '</ul>';
 				}
 			?>
