@@ -128,13 +128,10 @@ Masthead
 /* Search box */
 #strap-and-search {
   float: left;
-  width: 49%;
-  margin-top: 30px;
-  margin-left: 7%;
+  margin: 30px 0 0 10%;
 }
 #strap-and-search ul.wc-search {
   float: left;
-  margin-left: 17%;
 }
 #strap-and-search ul.wc-search li {
   width: 100%;
