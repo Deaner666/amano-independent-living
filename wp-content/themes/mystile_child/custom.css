@@ -313,17 +313,17 @@ Masthead
   float: none;
 }
 #header #navigation ul li {
-  width: 16%;
+  width: 14.2%;
   background: none;
   height: 70px;
   padding: 0 2% 0 2%;
 }
 #header #navigation ul li:hover {
-  background: #e0ebf3;
+  background: #f3fbff;
 }
 #header #navigation ul li:hover a {
   color: #000149 !important;
-  background-color: #e0ebf3 !important;
+  background-color: #f3fbff !important;
 }
 #header #navigation ul.nav > li a {
   width: 100%;
@@ -341,7 +341,7 @@ Masthead
 }
 #header #navigation ul.nav > li a:hover {
   background: none;
-  color: #e0ebf3;
+  color: #f3fbff;
 }
 #header #navigation ul.nav > li.current-menu-item > a,
 #header #navigation ul.nav > li.current_page_item > a {
@@ -349,7 +349,7 @@ Masthead
   font-weight: bold;
 }
 #header #navigation ul.nav ul {
-  background: #e0ebf3;
+  background: #f3fbff;
   border: none;
   width: 150%;
   box-shadow: 3px 4px 8px 0px rgba(50, 50, 50, 0.2);

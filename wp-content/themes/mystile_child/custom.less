@@ -3,6 +3,7 @@
 /* Colours */
 @amano-blue: #000149;
 @amano-light-blue: #e0ebf3;
+@amano-extra-light-blue: #f3fbff;
 @amano-dark-orange: #ff9e21;
 @amano-light-orange: #ffb800;
 
@@ -215,10 +216,10 @@ Masthead
   .border_radius(0px); z-index: 10; height: 70px;
   ul {
     width: 100%; margin: 17px 0 0 0; padding: 0; float: none;
-    li { width: 16%; background: none; height: 70px; padding: 0 2% 0 2%; }
+    li { width: 14.2%; background: none; height: 70px; padding: 0 2% 0 2%; }
     li:hover {
-      background: @amano-light-blue;
-      a { color: @amano-blue !important; background-color: @amano-light-blue !important; }
+      background: @amano-extra-light-blue;
+      a { color: @amano-blue !important; background-color: @amano-extra-light-blue !important; }
     }
   }
   ul.nav > li a {
@@ -227,7 +228,7 @@ Masthead
     font-family: @lato; font-size: 14px; text-transform: uppercase;
   }
   ul.nav > li a:hover {
-    background: none; color: @amano-light-blue;
+    background: none; color: @amano-extra-light-blue;
   }
   ul.nav > li.current-menu-item > a,
   ul.nav > li.current_page_item > a {
@@ -236,7 +237,7 @@ Masthead
 
   /* Sub Menus */
   ul.nav ul {
-    background: @amano-light-blue; border: none; width: 150%;
+    background: @amano-extra-light-blue; border: none; width: 150%;
     .box_shadow(3px, 4px, 8px, 0px, rgba(50, 50, 50, 0.2));
     .border_radius(4px);
     -webkit-border-top-left-radius: 0; -moz-border-radius-topleft: 0; border-top-left-radius: 0;
