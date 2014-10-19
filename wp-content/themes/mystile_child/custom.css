@@ -306,7 +306,7 @@ Masthead
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   z-index: 10;
-  height: 100px;
+  height: 70px;
   /* Sub Menus */
 }
 #header #navigation ul {
@@ -345,16 +345,6 @@ Masthead
 #header #navigation ul.nav > li a:hover {
   background: none;
   color: #e0ebf3;
-}
-#header #navigation ul.nav > li:first-child:hover,
-#header #navigation ul.nav > li:first-child a:hover {
-  -webkit-border-top-left-radius: 8px;
-  -webkit-border-bottom-left-radius: 8px;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
 }
 #header #navigation ul.nav > li.current-menu-item > a,
 #header #navigation ul.nav > li.current_page_item > a {
@@ -417,6 +407,10 @@ Masthead
 }
 #header #navigation ul.nav > li.parent a::before {
   display: none !important;
+}
+#header #navigation > ul {
+  width: 95%;
+  margin: 0px 2.5% 0 2.5%;
 }
 /*-------------------------------------------------------*
 Content

@@ -212,7 +212,7 @@ Masthead
 }
 #header #navigation {
 	clear: both; width: 100%; margin: 0; padding: 0; background: @amano-blue;
-  .border_radius(0px); z-index: 10; height: 100px;
+  .border_radius(0px); z-index: 10; height: 70px;
   ul {
     width: 100%; margin: 17px 0 0 0; padding: 0; float: none;
     li { width: 16%; background: none; height: 70px; padding: 0 2% 0 2%; }
@@ -228,9 +228,6 @@ Masthead
   }
   ul.nav > li a:hover {
     background: none; color: @amano-light-blue;
-  }
-  ul.nav > li:first-child:hover, ul.nav > li:first-child a:hover {
-    .border_radius_left(8px);
   }
   ul.nav > li.current-menu-item > a,
   ul.nav > li.current_page_item > a {
@@ -258,6 +255,7 @@ Masthead
   ul.nav > li.parent:hover a:after { color: @amano-blue; }
   ul.nav > li.parent a::before { display: none !important; }
 }
+#header #navigation > ul { width: 95%; margin: 0px 2.5% 0 2.5%; }
 
 
 /*-------------------------------------------------------*
