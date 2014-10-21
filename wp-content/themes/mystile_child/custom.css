@@ -647,6 +647,9 @@ Footer
   padding: 1.8155em 0 0 0;
   text-align: center;
 }
+#footer-widgets .footer-card-icons {
+  margin-bottom: 1.618em;
+}
 /* Social buttons */
 #social-icons {
   width: 288px;
@@ -785,4 +788,7 @@ Footer
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */
+}
+#footer p {
+  color: #000149;
 }
