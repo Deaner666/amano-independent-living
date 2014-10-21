@@ -649,7 +649,7 @@ Footer
 }
 /* Social buttons */
 #social-icons {
-  width: 187px;
+  width: 288px;
   margin: 0 auto 1.8155em auto;
   clear: both;
 }
@@ -664,7 +664,7 @@ Footer
   list-style-type: none;
   display: block;
   margin: 10px 2% 10px 0;
-  width: 187px;
+  width: 288px;
   /* Serve retina image on hi-dpi devices */
 }
 #social-icons ul.social-buttons li a {
@@ -690,6 +690,12 @@ Footer
 }
 #social-icons ul.social-buttons li.youtube a {
   background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -106.5px 0 no-repeat;
+}
+#social-icons ul.social-buttons li.pinterest a {
+  background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -42px 0 no-repeat;
+}
+#social-icons ul.social-buttons li.linkedin a {
+  background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -177.5px 0 no-repeat;
   margin-right: 0;
 }
 #social-icons ul.social-buttons li.twitter a:hover {
@@ -703,42 +709,64 @@ Footer
 }
 #social-icons ul.social-buttons li.youtube a:hover {
   background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -106.5px -35.5px no-repeat;
+}
+#social-icons ul.social-buttons li.pinterest a:hover {
+  background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -142px -35.5px no-repeat;
+}
+#social-icons ul.social-buttons li.linkedin a:hover {
+  background: url('images/icons/Social-Icons-Sprite-for-Footer.png') -177.5px -35.5px no-repeat;
   margin-right: 0;
 }
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   #social-icons ul.social-buttons li.twitter a {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') top left no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.facebook a {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -35.5px 0 no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.google-plus a {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -71px 0 no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.youtube a {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -106.5px 0 no-repeat;
+    background-size: 600%;
+  }
+  #social-icons ul.social-buttons li.pinterest a {
+    background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -142px 0 no-repeat;
+    background-size: 600%;
+  }
+  #social-icons ul.social-buttons li.linkedin a {
+    background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -177.5px 0 no-repeat;
     margin-right: 0;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.twitter a:hover {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') 0 -35.5px no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.facebook a:hover {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -35.5px -35.5px no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.google-plus a:hover {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -71px -35.5px no-repeat;
-    background-size: 400%;
+    background-size: 600%;
   }
   #social-icons ul.social-buttons li.youtube a:hover {
     background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -106.5px -35.5px no-repeat;
+    background-size: 600%;
+  }
+  #social-icons ul.social-buttons li.pinterest a:hover {
+    background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -142px -35.5px no-repeat;
+    background-size: 600%;
+  }
+  #social-icons ul.social-buttons li.linkedin a:hover {
+    background: url('images/icons/Social-Icons-Sprite-for-Footer@2x.png') -177.5px -35.5px no-repeat;
     margin-right: 0;
-    background-size: 400%;
+    background-size: 600%;
   }
 }
 #footer {
