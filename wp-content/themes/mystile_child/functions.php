@@ -75,9 +75,29 @@
 	 * Clear the query arguments for related products so none show.
 	 * Add this code to your theme functions.php file.  
 	 */
+	add_filter('woocommerce_related_products_args','wc_remove_related_products', 10);
+
 	function wc_remove_related_products( $args ) {
 		return array();
 	}
-	add_filter('woocommerce_related_products_args','wc_remove_related_products', 10);
 
-?>
+
+	/*
+	 *  
+	 * Regist a new widget area for a legal links menu at top of footer
+	 * 
+	 */
+
+	add_action( 'widgets_init', 'mtd_footer_legal_links_area' );
+
+	function mtd_footer_legal_links_area() {
+
+		register_sidebar( array(
+			'name' => 'Footer legal links',
+			'id' => 'footer_legals_1',
+			'before_widget' => '<ul class="footer-legal-links menu">',
+			'after_widget' => '</ul>',
+			'before_title' => '<h2>',
+			'after_title' => '</h2>',
+		) );
+	}

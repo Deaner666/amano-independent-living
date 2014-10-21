@@ -30,8 +30,21 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 ?>
 	<?php woo_footer_before(); ?>
 	
+		<!-- Extra row for legal links -->
+		<section id="footer-legal-links" class="col-full">
+			<?php if ( is_active_sidebar( 'footer_legals_1' ) ) { dynamic_sidebar( 'footer_legals_1' ); } ?>
+		</section>
 		<section id="footer-widgets" class="col-full col-<?php echo $total; ?> fix">
-	
+			
+			<div id="social-icons">
+				<ul class="social-buttons">
+					<li class="twitter"><a href="https://twitter.com/amanoconnect">Twitter</a></li>
+					<li class="facebook"><a href="https://www.facebook.com/amanoconnect">Facebook</a></li>
+					<li class="google-plus"><a href="https://plus.google.com/+Amanoconnect">Google+</a></li>
+					<li class="youtube"><a href="https://www.youtube.com/channel/UCfN9j_--o8IMDI4dIbAvkQg">Youtube</a></li>
+				</ul>
+			</div>
+			
 			<?php $i = 0; while ( $i < $total ) { $i++; ?>
 				<?php if ( woo_active_sidebar( 'footer-' . $i ) ) { ?>
 	
