@@ -774,10 +774,12 @@ Footer
   border: none;
   margin-right: -12.5%;
   margin-left: -12.5%;
+  color: #000149;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
   -moz-box-sizing: border-box;
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */
+  padding: 0 5% 0 5%;
 }
