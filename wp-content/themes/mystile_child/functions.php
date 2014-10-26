@@ -75,16 +75,16 @@
 	 * Clear the query arguments for related products so none show.
 	 * Add this code to your theme functions.php file.  
 	 */
-	add_filter('woocommerce_related_products_args','wc_remove_related_products', 10);
+	// add_filter('woocommerce_related_products_args','wc_remove_related_products', 10);
 
-	function wc_remove_related_products( $args ) {
-		return array();
-	}
+	// function wc_remove_related_products( $args ) {
+	// 	return array();
+	// }
 
 
 	/*
 	 *  
-	 * Regist a new widget area for a legal links menu at top of footer
+	 * Register a new widget area for a legal links menu at top of footer
 	 * 
 	 */
 
