@@ -458,9 +458,11 @@ body.home #breadcrumbs {
 }
 #home-page-lede-buttons #help-me-choose {
   float: left;
+  margin-top: -450px;
 }
 #home-page-lede-buttons #ready-to-shop {
   float: right;
+  margin-top: -450px;
 }
 #your-peace-of-mind {
   margin-top: 30px;

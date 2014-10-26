@@ -38,10 +38,10 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
                 <div id="home-page-lede-buttons">
                     <div id="help-me-choose" class="feature-button">
-                        <a href="#">Help Me Choose the Right Products</a>
+                        <a href="/help-advice">Help Me Choose the Right Products</a>
                     </div>
                     <div id="ready-to-shop" class="feature-button">
-                        <a href="#">I Know What I Want. <br />I'm Ready to Shop</a>
+                        <a href="/shop">I Know What I Want. <br />I'm Ready to Shop</a>
                     </div>
                 </div>
 
