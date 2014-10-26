@@ -47,6 +47,16 @@ global $woo_options, $woocommerce;
 					echo '</ul>';
 				}
 			?>
+
+			<?php
+				if ( class_exists( 'woocommerce' ) ) {
+					// echo '<div id="search">';
+					echo '<ul class="nav wc-nav wc-search">';
+					echo get_search_form();
+					echo '</ul>';
+					// echo '<div>';
+				}
+			?>
 			
 			<?php if ( function_exists( 'has_nav_menu' ) && has_nav_menu( 'top-menu' ) ) { ?>
 			<?php wp_nav_menu( array( 'depth' => 6, 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'top-nav', 'menu_class' => 'nav fl', 'theme_location' => 'top-menu' ) ); ?>
@@ -63,17 +73,6 @@ global $woo_options, $woocommerce;
 				<img itemprop="logo" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/amano-connect-logo-horizontal.png" alt="<?php bloginfo( 'name' ); ?>" />
 			</a>
 		</h1>
-
-		<div id="strap-and-search">
-			<!-- <div class="strapline">Technology &bullet; Independence &bullet; Well-being</div> -->
-		    <?php
-				if ( class_exists( 'woocommerce' ) ) {
-					echo '<ul class="nav wc-nav wc-search">';
-					echo get_search_form();
-					echo '</ul>';
-				}
-			?>
-		</div>
 
 		<h3 class="nav-toggle"><a href="#navigation">&#9776; &nbsp; Toggle Main Menu<span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
 
