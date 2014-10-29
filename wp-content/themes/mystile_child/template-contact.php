@@ -56,15 +56,43 @@ get_header();
 						    	</section>
 						    	<?php } ?>
 
-						    	<?php the_content(); ?>
-
 						    	<div class="contact-social<?php if ( ( isset( $woo_options['woo_contact_panel'] ) && $woo_options['woo_contact_panel'] == 'true' ) && ( ( isset( $woo_options['woo_contact_twitter'] ) && $woo_options['woo_contact_twitter'] != '' ) || ( isset($woo_options['woo_contact_subscribe_and_connect']) && $woo_options['woo_contact_subscribe_and_connect'] == 'true' ) ) ) { ?> col-right<?php } ?>">
-						    
+						    		
+						    		<!-- Begin MailChimp Signup Form -->
+									<div id="mc_embed_signup">
+										<h3>Join us</h3>
+										<p class="subscribe-intro">Join our email newsletter for exclusive deals and the latest telecare news from Amano Connect</p>
+										<form action="//amanotech.us4.list-manage.com/subscribe/post?u=2717d4782e67bd897fbe8cf26&amp;id=c2d5ad4e35" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+											<div class="mc-field-group">
+												<label for="mce-EMAIL">Email Address *</label>
+												<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+											</div>
+											<div class="mc-field-group">
+												<label for="mce-FNAME">First Name</label>
+												<input type="text" value="" name="FNAME" class="required" id="mce-FNAME">
+											</div>
+											<div class="mc-field-group">
+												<label for="mce-LNAME">Last Name</label>
+												<input type="text" value="" name="LNAME" class="required" id="mce-LNAME">
+											</div>
+											<div id="mce-responses" class="clear">
+												<div class="response" id="mce-error-response" style="display:none"></div>
+												<div class="response" id="mce-success-response" style="display:none"></div>
+											</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+										    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2717d4782e67bd897fbe8cf26_c2d5ad4e35" value=""></div>
+											<div class="clear"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+										</form>
+									</div>
+
+									<!--End mc_embed_signup-->
+
 						    		<?php if ( isset($woo_options['woo_contact_subscribe_and_connect']) && $woo_options['woo_contact_subscribe_and_connect'] == 'true' ) { woo_subscribe_connect(); } ?>
 						    	
 						    	</div>
+
+						    	<?php the_content(); ?>
 						    	
-						    	</div><!-- /.location-twitter -->
+						    </div><!-- /.location-twitter -->
 	                        
                         </section>
                         

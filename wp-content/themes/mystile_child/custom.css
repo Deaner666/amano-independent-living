@@ -538,6 +538,38 @@ body.home #breadcrumbs {
 #home-page-buttons ul li:last-child a {
   margin-right: 0;
 }
+/* Contact page template */
+#office-location {
+  float: left;
+}
+.contact-social {
+  float: right;
+}
+.contact-social #mc_embed_signup {
+  background: #000149;
+  color: #fff;
+  padding: 4%;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.contact-social #mc_embed_signup h3 {
+  color: #fff;
+}
+.contact-social #mc_embed_signup label {
+  display: block;
+}
+.contact-social #mc_embed_signup input {
+  clear: both;
+  border: none;
+  margin: 0 0 1.168em;
+  width: 100%;
+}
+.contact-social #mc_embed_signup #mc-embedded-subscribe {
+  margin-top: 1.168em;
+}
 /*-------------------------------------------------------*
 Footer
 *-------------------------------------------------------*/

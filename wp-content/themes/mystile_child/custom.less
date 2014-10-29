@@ -18,7 +18,6 @@ body {
 #main.fullwidth, .layout-full #main, .col-full, .no-sidebar #main {
   width: 100%; margin: 0 auto; max-width: 100%;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: @lato; color: @amano-blue; font-weight: normal;
 }
@@ -289,6 +288,24 @@ body.home #breadcrumbs { display: none; }
       }
       &:last-child a { margin-right: 0; }
     }
+  }
+}
+
+/* Contact page template */
+#office-location {
+  float: left;
+}
+
+.contact-social {
+  float: right;
+  #mc_embed_signup {
+    h3 { color: #fff; }
+    label { display: block; }
+    input {
+      clear: both; border: none; margin: 0 0 1.168em; width: 100%;
+    }
+    #mc-embedded-subscribe { margin-top: 1.168em; }
+    background: @amano-blue; color: #fff; padding: 4%; .border_radius(8px);
   }
 }
 
