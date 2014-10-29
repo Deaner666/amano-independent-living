@@ -296,8 +296,12 @@ body.home #breadcrumbs { display: none; }
   float: left;
 }
 
-.contact-social { float: right; .clearfix(); }
+.contact-social {
+  float: right; .clearfix();
+  #mc_embed_signup { margin-bottom: 1.618em; }
+}
 #mc_embed_signup {
+  .clearfix();
   h3 { color: #fff; }
   label { display: block; }
   input {
@@ -306,6 +310,8 @@ body.home #breadcrumbs { display: none; }
   #mc-embedded-subscribe { margin-top: 1.168em; }
   background: @amano-blue; color: #fff; padding: 4%; .border_radius(8px);
 }
+
+hr.contact-separator { clear: both; }
 
 
 /*-------------------------------------------------------*

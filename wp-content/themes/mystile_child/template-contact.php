@@ -88,6 +88,8 @@ get_header();
 						    	
 						    	</div>
 
+						    	<hr class="contact-separator" />
+
 						    	<?php the_content(); ?>
 						    	
 						    </div><!-- /.location-twitter -->

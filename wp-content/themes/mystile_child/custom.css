@@ -552,6 +552,9 @@ body.home #breadcrumbs {
   overflow: hidden;
   clear: both;
 }
+.contact-social #mc_embed_signup {
+  margin-bottom: 1.618em;
+}
 #mc_embed_signup {
   background: #000149;
   color: #fff;
@@ -561,6 +564,13 @@ body.home #breadcrumbs {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+#mc_embed_signup:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
 }
 #mc_embed_signup h3 {
   color: #fff;
@@ -576,6 +586,9 @@ body.home #breadcrumbs {
 }
 #mc_embed_signup #mc-embedded-subscribe {
   margin-top: 1.168em;
+}
+hr.contact-separator {
+  clear: both;
 }
 /*-------------------------------------------------------*
 Footer
