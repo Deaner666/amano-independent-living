@@ -82,9 +82,7 @@ get_header();
 										    <div style="position: absolute; left: -5000px;"><input type="text" name="b_2717d4782e67bd897fbe8cf26_c2d5ad4e35" value=""></div>
 											<div class="clear"><input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 										</form>
-									</div>
-
-									<!--End mc_embed_signup-->
+									</div><!--End mc_embed_signup-->
 
 						    		<?php if ( isset($woo_options['woo_contact_subscribe_and_connect']) && $woo_options['woo_contact_subscribe_and_connect'] == 'true' ) { woo_subscribe_connect(); } ?>
 						    	
