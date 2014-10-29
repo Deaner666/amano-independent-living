@@ -671,7 +671,7 @@ Footer
   list-style-type: none;
   display: block;
   margin: 10px 2% 10px 0;
-  width: 288px;
+  width: 291px;
   /* Serve retina image on hi-dpi devices */
 }
 #social-icons ul.social-buttons li a {
@@ -679,8 +679,8 @@ Footer
   text-indent: -9999px;
   display: block;
   margin-right: 15px;
-  width: 35.5px;
-  height: 35.5px;
+  width: 36px;
+  height: 36px;
 }
 #social-icons ul.social-buttons li a:hover {
   float: left;
