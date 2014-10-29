@@ -545,6 +545,13 @@ body.home #breadcrumbs {
 .contact-social {
   float: right;
 }
+.contact-social:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
 #mc_embed_signup {
   background: #000149;
   color: #fff;
