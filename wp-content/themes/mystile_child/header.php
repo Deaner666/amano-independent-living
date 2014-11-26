@@ -76,7 +76,9 @@ global $woo_options, $woocommerce;
 
 		<?php if ( is_page_template('template-assessment.php') ) { ?>
 			<!-- Add advisor character to header -->
-			<p>ONLINE ASSESSMENT</p>
+			<div class="advisor-header">
+				<img src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/layout/assessment-advisor-header.png" alt="An illustration of a lady saying we are here to help" />
+			</div>
 		<?php } ?>
 
 		<h3 class="nav-toggle"><a href="#navigation">&#9776; &nbsp; Toggle Main Menu<span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
