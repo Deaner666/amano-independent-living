@@ -132,6 +132,11 @@ Masthead
   margin: 0;
   padding: 0;
 }
+#header .advisor-header {
+  float: left;
+  width: 15%;
+  margin-left: 4%;
+}
 /* TODO */
 #colour-picker {
   height: 23.5px;
