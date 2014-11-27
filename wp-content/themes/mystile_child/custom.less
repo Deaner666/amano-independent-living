@@ -4,8 +4,10 @@
 @amano-blue: #000149;
 @amano-light-blue: #e0ebf3;
 @amano-extra-light-blue: #f3fbff;
+@amano-link-hover-blue: #00b5ff;
 @amano-dark-orange: #ff9e21;
 @amano-light-orange: #ffb800;
+@amano-grey: #3e474a;
 
 /* Fonts */
 @lato: "Lato", sans-serif;
@@ -29,7 +31,11 @@ p {
   hyphens: none;
 }
 
-// a { color: @amano-light-orange; }
+a { color: @amano-dark-orange; }
+#sidebar a {
+  color: @amano-grey;
+  &:hover { color: @amano-link-hover-blue; }
+}
 
 /* List margin overrides */
 #content ul, #content ol { margin-left: 1.4em; }

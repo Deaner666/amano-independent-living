@@ -34,6 +34,15 @@ p {
   -moz-hyphens: none;
   hyphens: none;
 }
+a {
+  color: #ff9e21;
+}
+#sidebar a {
+  color: #3e474a;
+}
+#sidebar a:hover {
+  color: #00b5ff;
+}
 /* List margin overrides */
 #content ul,
 #content ol {
