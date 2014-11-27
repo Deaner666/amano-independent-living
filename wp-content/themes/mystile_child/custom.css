@@ -34,9 +34,6 @@ p {
   -moz-hyphens: none;
   hyphens: none;
 }
-a {
-  color: #ffb800;
-}
 /* List margin overrides */
 #content ul,
 #content ol {
