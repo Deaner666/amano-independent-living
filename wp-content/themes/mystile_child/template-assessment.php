@@ -26,57 +26,6 @@ get_header();
 		<section id="main" class="col-left">
 
             <?php
-                if ( is_front_page() ) { ?>
-
-                <article class="full-width-feature light" id="independent-living">
-                    <h1>Independent Living</h1>
-                    <h2>Enable your loved-one to live independently in their own home. Safely and on their own terms.</h2>
-                    <p>Our range of simple in-home sensors and detectors work without any intervention.</p>
-                    <img src="wp-content/themes/mystile_child/images/icons/amano-connect-main-icon.png" alt="" />
-                    
-                </article>
-
-                <div id="home-page-lede-buttons">
-                    <div id="help-me-choose" class="feature-button">
-                        <a href="/help-advice">Help Me Choose the Right Products</a>
-                    </div>
-                    <div id="ready-to-shop" class="feature-button">
-                        <a href="/shop">I Know What I Want. <br />I'm Ready to Shop</a>
-                    </div>
-                </div>
-
-                <article class="full-width-feature dark" id="your-peace-of-mind">
-                    <h1>Your Peace of Mind</h1>
-                    <h2>No more worrying about your loved-one’s wellbeing. No more panicky visits to check they’re OK.</h2>
-                    <p>We provide the reassurance that your loved-one is safe and healthy so you can enjoy your visits in a better frame of mind.</p>
-                </article>
-
-                <article class="full-width-feature light" id="connections-diagram">
-                    <img src="wp-content/themes/mystile_child/images/icons/connections-icon.png" alt="" />
-                </article>
-
-                <article class="full-width-feature dark" id="making-connections">
-                    <h1>Making Connections</h1>
-                    <h2>We keep you connected to your loved-one and your loved-one connected to the rest of the world.</h2>
-                    <p>Our monitoring products alert you if something is up. Our simple to use computing devices help your loved-one connect online.</p>
-                </article>
-
-                <article class="full-width-feature light" id="preserving-dignity">
-                    <h1>Preserving Dignity</h1>
-                    <h2>Help maintain quality of life. Avoid expensive residential care costs.</h2>
-                    <p>We’ll help you choose products that cater to your loved-one’s care requirements, keeping them in their own home and out of costly care homes.</p>
-                </article>
-
-                <div id="home-page-buttons">
-                    <ul>
-                        <li><a href="" id="choose-button">Help Me Choose the Right Products</a></li>
-                        <li><a href="" id="buy-button">Buy Products</a></li>
-                        <li><a href="" id="support-button">Our Support<br />Services</a></li>
-                    </ul>
-                </div>
-
-            <?php }
-
             	if ( have_posts() ) { $count = 0;
             		while ( have_posts() ) { the_post(); $count++;
             ?>                                                           

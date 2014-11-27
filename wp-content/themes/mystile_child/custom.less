@@ -29,6 +29,8 @@ p {
   hyphens: none;
 }
 
+a { color: @amano-light-orange; }
+
 /* List margin overrides */
 #content ul, #content ol { margin-left: 1.4em; }
 #sidebar ul, #sidebar ol {
@@ -215,7 +217,7 @@ body.home #breadcrumbs { display: none; }
 
 /* Generic feature blocks */
 .full-width-feature {
-  .borderbox(); margin-right: -12.5%; margin-left: -12.5%; padding: 0 5% 0 5%;
+  .borderbox(); margin-right: -12.5%; margin-left: -12.5%; padding: 1.618em 5% 1.618em 5%;
   clear: both; .clearfix(); text-align: center;
   h1 { color: #fff; }
   h2 { font-size: 1.4em; color: #fff; line-height: 1.7; text-transform: none; }
@@ -244,9 +246,9 @@ body.home #breadcrumbs { display: none; }
 
 .feature-button {
   a {
-    display: block; border: 2px solid @amano-blue;
+    display: inline-block; border: 2px solid @amano-blue; cursor: pointer;
     .border_radius(6px); width: 200px; padding: 10px; margin-right: 15px;
-    text-align: center; color: @amano-blue; background: #fff;
+    text-align: center; color: @amano-blue; background: #fff; margin-bottom: 1.618em;
     &:hover { color: #fff; background: @amano-blue; border-color: #fff; }
   }
 }
@@ -292,6 +294,20 @@ body.home #breadcrumbs { display: none; }
       }
       &:last-child a { margin-right: 0; }
     }
+  }
+}
+
+#online-assessment-lede {
+  text-align: left;
+  img {
+    width: 20%; float: left; margin: 2% 5% 0 5%;
+  }
+}
+
+#live-chat-lede {
+  text-align: left;
+  img {
+    width: 8%; float: right; margin: 0% 5% 0 5%;
   }
 }
 
