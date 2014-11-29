@@ -30,13 +30,33 @@ get_header();
             		while ( have_posts() ) { the_post(); $count++;
             ?>                                                           
             <article <?php post_class(); ?>>
-				
-				<?php
-                    if (!is_front_page()) { ?>
-                        <header>
-        			    	<h1><?php the_title(); ?></h1>
-        				</header>
-                    <?php }
+
+                <header>
+			    	<h1><?php the_title(); ?></h1>
+				</header>
+
+                <?php
+
+                if ( is_page('independent-living-assessment') ) {
+                    ?>
+                    <article class="full-width-feature dark" id="assessment-buttons">
+                        <div class="narrower">
+                            <div><img class="personal-icon" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/icons/personal-icon.png" alt="An icon representing a personal assessment" /></div>
+                            <div class="feature-button"><a title="Independent Living – I Need Help With…" href="http://www.amanoconnect.dev/help-advice/independent-living-assessment/personal-assessment/">I'm interested in independent living technology for myself, a family member or a friend</a></div>
+                            <div class="feature-button"><a title="Independent Living – Help for Professionals" href="http://www.amanoconnect.dev/help-advice/independent-living-assessment/independent-living-help-professionals/">I'm a health / social care professional looking on behalf of a patient or for work</a></div>
+                            <div><img class="healthcare-icon" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/icons/healthcare-professional-icon.png" alt="An icon representing an assessment for a healthcare professional" /></div>
+                        </div>
+                    </article>
+
+                    <article class="full-width-feature light" id="live-chat-remind">
+                        <img src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/mascot/live-chat.png" alt="Our advisor chatting" />
+                        <h1>Need help? Speak to an Advisor</h1>
+                        <p>If at any point you would like to speak to an advisor, you can use the live chat facility at the bottom of the website. Advisors are available during office hours (Mon. to Fri. 9am to 4.30pm). Outside of office hours you can leave a message and an advisor will get back to you.</p>
+                        <p>Alternatively, give us a call on <strong>01822 600060</strong>.</p>
+                    </article>
+                    <?php
+                }
+
                 ?>
 
                 <section class="entry">

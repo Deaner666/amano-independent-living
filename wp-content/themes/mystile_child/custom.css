@@ -363,7 +363,7 @@ body.home #breadcrumbs {
   /* Opera/IE 8+ */
   margin-right: -12.5%;
   margin-left: -12.5%;
-  padding: 1.618em 5% 1.618em 5%;
+  padding: 4.854em 5% 3.236em 5%;
   clear: both;
   text-align: center;
 }
@@ -437,6 +437,9 @@ body.home #breadcrumbs {
 .light .blurb {
   width: 24%;
   text-align: center;
+}
+.feature-button {
+  float: left;
 }
 .feature-button a {
   display: inline-block;
@@ -568,6 +571,27 @@ body.home #breadcrumbs {
 #live-chat-lede img {
   width: 8%;
   float: right;
+  margin: 0% 5% 0 5%;
+}
+#assessment-buttons .narrower {
+  width: 778px;
+  margin: 0 auto;
+}
+#assessment-buttons img {
+  width: 110px;
+  float: left;
+  margin: 0 20px;
+  background: none;
+}
+#assessment-buttons img.healthcare-icon {
+  margin-left: 5px;
+}
+#live-chat-remind {
+  text-align: left;
+}
+#live-chat-remind img {
+  width: 8%;
+  float: left;
   margin: 0% 5% 0 5%;
 }
 /* Contact page template */

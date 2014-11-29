@@ -62,7 +62,7 @@ get_header();
 
             <article class="full-width-feature dark">
                 <h1>FAQs</h1>
-                <p>If you just need a quick answer to a common question, perhaps about a product you’ve already bought, check out our Frequently Asked Questions (<abbr title="Frequently Asked Questions">FAQs</abbr>).</p>
+                <p>If you just need a quick answer to a common question, perhaps about a product you’ve already bought, check out our <a href="<?php echo site_url(); ?>/help-advice/faqs/">Frequently Asked Questions (<abbr title="Frequently Asked Questions">FAQs</abbr>)</a>.</p>
             </article>
 
             <?php
