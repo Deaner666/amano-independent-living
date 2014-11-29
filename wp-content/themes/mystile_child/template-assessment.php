@@ -43,7 +43,7 @@ get_header();
                         <div class="narrower">
                             <div><img class="personal-icon" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/icons/personal-icon.png" alt="An icon representing a personal assessment" /></div>
                             <div class="feature-button"><a title="Independent Living – I Need Help With…" href="http://www.amanoconnect.dev/help-advice/independent-living-assessment/personal-assessment/">I'm interested in independent living technology for myself, a family member or a friend</a></div>
-                            <div class="feature-button"><a title="Independent Living – Help for Professionals" href="http://www.amanoconnect.dev/help-advice/independent-living-assessment/independent-living-help-professionals/">I'm a health / social care professional looking on behalf of a patient or for work</a></div>
+                            <div class="feature-button"><a title="Independent Living – Help for Professionals" href="http://www.amanoconnect.dev/help-advice/independent-living-assessment/information-for-professionals/">I'm a health / social care professional looking on behalf of a patient or for work</a></div>
                             <div><img class="healthcare-icon" src="<?php echo site_url(); ?>/wp-content/themes/mystile_child/images/icons/healthcare-professional-icon.png" alt="An icon representing an assessment for a healthcare professional" /></div>
                         </div>
                     </article>
