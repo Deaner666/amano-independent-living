@@ -147,12 +147,14 @@ Masthead
     .box_shadow(3px, 4px, 8px, 0px, rgba(50, 50, 50, 0.2));
     .border_radius(4px);
     -webkit-border-top-left-radius: 0; -moz-border-radius-topleft: 0; border-top-left-radius: 0;
-    li { width: 93%; border: none !important; background: none; .border_radius(0px); padding: 0 0 0 3.5%; }
-    li a {
-      text-align: left; padding: 5% 0 0 5%; background: none !important;
-      border: none !important; margin: 0;
+    li { width: 93%; border: none !important; background: none; height: 100%;
+      .border_radius(0px); padding: 0 0 0 3.5%; margin-bottom: 4%;
     }
-    li a:hover { background: @amano-blue !important; color: #fff !important; .border_radius(0px); }
+    li a {
+      text-align: left; padding: 2% 2% 2% 7%; background: none !important;
+      border: none !important; margin: 0; height: 100%;
+    }
+    li a:hover { background: @amano-blue !important; color: #fff !important; .border_radius(4px); }
   }
   ul.nav > li.parent a:after {
     font-family: 'WebSymbolsRegular'; display: inline-block;
