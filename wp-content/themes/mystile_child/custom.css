@@ -891,6 +891,7 @@ Footer
 }
 #footer .footer-logo {
   float: right;
+  margin-top: 1.618em;
 }
 #footer .footer-logo:last-child {
   margin-right: 20px;
