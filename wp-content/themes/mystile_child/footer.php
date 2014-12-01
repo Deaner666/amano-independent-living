@@ -77,7 +77,12 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	        	echo stripslashes( $woo_options['woo_footer_right_text'] );
 	
 			} else { ?>
-				<p><?php _e( 'Powered by', 'woothemes' ); ?> <a href="<?php echo esc_url( 'http://www.wordpress.org' ); ?>">WordPress</a>. <?php _e( 'Designed by', 'woothemes' ); ?> <a href="<?php echo ( isset( $woo_options['woo_footer_aff_link'] ) && ! empty( $woo_options['woo_footer_aff_link'] ) ? esc_url( $woo_options['woo_footer_aff_link'] ) : esc_url( 'http://www.woothemes.com' ) ) ?>"><img src="<?php echo esc_url( get_template_directory_uri().'/images/woothemes.png' ); ?>" width="74" height="19" alt="Woo Themes" /></a></p>
+				<p>
+					A member of the <a href="http://www.telecare.org.uk">Telecare Services Association</a>
+					<a href="http://www.telecare.org.uk">
+						<img src="/wp-content/themes/mystile_child/images/layout/TSA.jpg" alt="The Telecare Services Association Logo" width="85" />
+					</a>
+				</p>
 			<?php } ?>
 			</div>
 	
