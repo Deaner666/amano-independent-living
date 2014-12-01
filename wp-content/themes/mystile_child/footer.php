@@ -77,12 +77,18 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 	        	echo stripslashes( $woo_options['woo_footer_right_text'] );
 	
 			} else { ?>
-				<p>
+				<div class="footer-logo">
+					Local authority approved - <a href="http://www.supportwithconfidence.gov.uk">Support with Confidence</a>
+					<a href="http://www.supportwithconfidence.gov.uk">
+						<img src="/wp-content/themes/mystile_child/images/layout/support-with-confidence.jpg" alt="The Support with Confidence Logo" width="149" />
+					</a>
+				</div>
+				<div class="footer-logo">
 					A member of the <a href="http://www.telecare.org.uk">Telecare Services Association</a>
 					<a href="http://www.telecare.org.uk">
 						<img src="/wp-content/themes/mystile_child/images/layout/TSA.jpg" alt="The Telecare Services Association Logo" width="85" />
 					</a>
-				</p>
+				</div>
 			<?php } ?>
 			</div>
 	

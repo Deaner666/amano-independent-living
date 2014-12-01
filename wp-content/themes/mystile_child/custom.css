@@ -874,9 +874,9 @@ Footer
   margin-right: -12.5%;
   margin-left: -12.5%;
   color: #000149;
-  padding: 0 5% 0 5%;
-  width: 100%;
-  max-width: 100%;
+  padding: 0 5% 3.236em 5%;
+  width: 112.5%;
+  max-width: 112.5%;
   border: none;
   -webkit-box-sizing: border-box;
   /* Safari/Chrome, other WebKit */
@@ -888,4 +888,12 @@ Footer
 #footer p {
   color: #000149;
   font-size: 11px;
+}
+#footer .footer-logo {
+  float: right;
+}
+#footer .footer-logo:last-child {
+  margin-right: 20px;
+  border-right: 1px solid #e0ebf3;
+  padding-right: 15px;
 }
