@@ -225,8 +225,8 @@ body.home #breadcrumbs { display: none; }
 
 /* Generic feature blocks */
 .full-width-feature {
-  .borderbox(); margin-right: -12.5%; margin-left: -12.5%; padding: 4.854em 5% 3.236em 5%;
-  clear: both; .clearfix(); text-align: center;
+  .borderbox(); margin-right: -12.5%; margin-left: -12.5%; padding: 4.854em 12.5% 3.236em 12.5%;
+  clear: both; .clearfix(); text-align: center; position: relative;
   h1 { color: #fff; }
   h2 { font-size: 1.4em; color: #fff; line-height: 1.7; text-transform: none; }
   p { color: #fff; }
@@ -252,6 +252,16 @@ body.home #breadcrumbs { display: none; }
   .blurb { width: 24%; text-align: center; }
 }
 
+.full-width-feature table {
+  border: none; margin-top: 3.236em;
+  td {
+    border: none; padding: 0 20px 0 0; margin: 0;
+    p { padding-top: 3%; }
+  }
+  img { width: 150px; }
+}
+.dark table { color: #fff; }
+
 .feature-button {
   float: left;
   a {
@@ -262,35 +272,39 @@ body.home #breadcrumbs { display: none; }
   }
 }
 
-/* Specific feature block overrides */
-#independent-living {
-  padding-top: 40px;
-  img { width: 60%; margin-top: 30px; }
-}
 #home-page-lede-buttons {
-  clear: both; margin-top: -70px;
-  #help-me-choose { float: left; margin-top: -450px; }
-  #ready-to-shop { float: right; margin-top: -450px; }
+  #help-me-choose { float: left; }
+  #ready-to-shop { float: right; }
 }
-#your-peace-of-mind {
-  margin-top: 30px; clear: none; padding-bottom: 40px;
-  h1 { padding-top: 70px; }
+
+/* Specific feature block overrides */
+#connect-animation {
+  top: -100px; height: 270px; max-height: 300px; background: none;
+  img { width: 100%; }
+  .wow { position: absolute; top: 0; left: 50%; }
+  .anim-smoke-detector { width: 140px; margin-left: -170px; }
+  .anim-motion-sensor { width: 162px; margin-left: -190px; margin-top: 170px; }
+  .anim-personal-alarm { width: 166px; margin-left: 20px; margin-top: 20px; }
+  .anim-communication { width: 186px; margin-left: -3px; margin-top: 200px; }
+  .anim-relative { width: 145px; margin-left: -300px; margin-top: 160px; }
+  .anim-healthcare-professional { width: 145px; margin-left: 170px; margin-top: 150px; }
+  .anim-home { width: 135px; margin-left: -67.5px; margin-top: 40px; }
 }
-#connections-diagram img { margin-top: -20px; }
+
 #making-connections {
-  margin-top: -40px; clear: none; padding-bottom: 40px;
-  h1 { padding-top: 70px; }
+  .center { text-align: center; margin: 0 auto; width: 463px; }
+  .shop a { margin-right: 0; }
 }
-#preserving-dignity {
-  margin-top: 40px;
-  p { width: 60%; margin-left: 20%; }
+
+#your-peace-of-mind {
+  img { width: 40%; margin-bottom: -7%; }
 }
 
 /* Fancy buttons on home page */
 #home-page-buttons {
   width: 100%; .clearfix();
   ul {
-    margin: 0 auto; width: 552px; display: block;
+    margin: 3.236em auto 0 auto; width: 552px; display: block;
     li {
       list-style: none; display: block;
       a {
@@ -309,7 +323,7 @@ body.home #breadcrumbs { display: none; }
 #online-assessment-lede {
   text-align: left;
   img {
-    width: 20%; float: left; margin: 2% 5% 0 5%;
+    width: 20%; float: right; margin: 2% 5% 0 5%;
   }
 }
 
@@ -522,7 +536,7 @@ Footer
 #footer {
   position: absolute;
   background: #fff; border: none; margin-right: -12.5%; margin-left: -12.5%;
-  color: @amano-blue; padding: 0 5% 3.236em 5%; width: 112.5%; max-width: 112.5%; border: none;
+  color: @amano-blue; padding: 0 5% 3.236em 5%; width: 102.5%; max-width: 102.5%; border: none;
   .borderbox();
   p { color: @amano-blue; font-size: 11px; }
   .footer-logo {
