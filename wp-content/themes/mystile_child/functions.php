@@ -132,3 +132,24 @@
 			'after_title' => '</h2>',
 		) );
 	}
+
+	add_filter( 'woocommerce_subscriptions_product_price_string', 'mtd_subscription_variation_price_format', 10, 2 );
+	add_filter( 'woocommerce_subscription_price_string', 'mtd_subscription_variation_price_format', 10, 2 );
+	function mtd_subscription_variation_price_format($subscription_string, $product) {
+		// if ( $product->id == 162 ) {
+			$updated_string = str_replace('sign-up fee', 'up front', $subscription_string);
+			$updated_string = str_replace('and a', 'and', $updated_string);
+		// }
+		return $updated_string;
+	}
+
+	// add_filter( 'woocommerce_subscriptions_product_price_string_inclusions', 'mtd_subscription_variation_no_tax', 20, 3 );
+	// function mtd_subscription_variation_no_tax($include, $product) {
+	// 	$include['tax_calculation'] = true;
+	// 	$include['subscription_price'] = true;
+	// 	$include['subscription_period'] = true;
+	// 	$include['subscription_length'] = true;
+	// 	$include['sign_up_fee'] = true;
+	// 	$include['trial_length'] = true;
+	// 	return $include;
+	// }
