@@ -1,7 +1,17 @@
 <?php
 
-	add_shortcode( 'best_selling_products_by_cat', 'best_selling_products_by_cat' );
+	// Enqueue scripts and styles
+	add_action( 'wp_enqueue_scripts', 'mtd_scripts_styles' );
+	function mtd_scripts_styles() {
 
+		// wp_enqueue_style( 'dashicons' );
+		wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic', array() );
+		wp_enqueue_style( 'animate-css', get_bloginfo( 'stylesheet_directory' ) . '/css/animate.css', array() );
+		wp_enqueue_script( 'wow-js', get_bloginfo( 'stylesheet_directory' ) . '/js/wow.min.js' );
+
+	}
+
+	add_shortcode( 'best_selling_products_by_cat', 'best_selling_products_by_cat' );
 	/**
 	 * List best selling products from a given category slug
 	 *
