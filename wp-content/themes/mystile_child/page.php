@@ -55,7 +55,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                 <article class="full-width-feature light" id="extra-help">
                     <div class="anim-mascot wow fadeIn" data-wow-offset="100" data-wow-delay=".2s"><img src="wp-content/themes/mystile_child/images/mascot/let-me-guide-you.png" alt="" /></div>
                     <div class="buttons wow fadeIn" data-wow-offset="100" data-wow-delay=".8s">
-                        <div class="feature-button"><a href="/help-advice/online-assessment/">Take the Independent Living Assesment</a></div>
+                        <div class="feature-button"><a href="/help-advice/independent-living-assessment/">Take the Independent Living Assesment</a></div>
                         <div class="feature-button"><a href="/help-advice/faqs/">Frequently Asked <br />Questions</a></div>
                     </div>
                 </article>
