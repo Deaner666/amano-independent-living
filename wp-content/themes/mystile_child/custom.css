@@ -449,13 +449,14 @@ body.home #breadcrumbs {
 .full-width-feature table td {
   border: none;
   padding: 0 20px 0 0;
-  margin: 0;
 }
 .full-width-feature table td p {
-  padding-top: 3%;
+  padding-top: 1.5%;
+  margin: 0 0 50px 0;
+  font-size: 1.2em;
 }
 .full-width-feature table img {
-  width: 150px;
+  max-width: 200px;
 }
 .dark table {
   color: #fff;
@@ -494,8 +495,8 @@ body.home #breadcrumbs {
 /* Specific feature block overrides */
 #connect-animation {
   top: -100px;
-  height: 270px;
-  max-height: 300px;
+  height: 370px;
+  max-height: 370px;
   background: none;
 }
 #connect-animation img {
@@ -538,6 +539,31 @@ body.home #breadcrumbs {
 #connect-animation .anim-home {
   width: 135px;
   margin-left: -67.5px;
+  margin-top: 40px;
+}
+#extra-help {
+  top: -50px;
+  height: 150px;
+  max-height: 150px;
+  position: relative;
+}
+#extra-help img {
+  width: 100%;
+}
+#extra-help .wow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+#extra-help .anim-mascot {
+  width: 275px;
+  margin-left: -400px;
+}
+#extra-help .buttons {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -110px;
   margin-top: 40px;
 }
 #making-connections .center {

@@ -44,12 +44,20 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
 
                 <article class="full-width-feature light" id="connect-animation">
                     <div class="anim-smoke-detector wow fadeInLeftBig" data-wow-offset="250"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/smoke-detector.png" alt="" /></div>
-                    <div class="anim-relative wow fadeInLeftBig" data-wow-offset="150" data-wow-delay="2.5s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/relative.png" alt="" /></div>
-                    <div class="anim-motion-sensor wow fadeInLeftBig" data-wow-offset="120" data-wow-delay="1s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/motion-sensor.png" alt="" /></div>
-                    <div class="anim-personal-alarm wow fadeInRightBig" data-wow-offset="200" data-wow-delay="0.5s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/personal-alarm.png" alt="" /></div>
-                    <div class="anim-healthcare-professional wow fadeInRightBig" data-wow-offset="150" data-wow-delay="2s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/healthcare-professional.png" alt="" /></div>
-                    <div class="anim-communication wow fadeInRightBig" data-wow-offset="120" data-wow-delay="1.5s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/communication.png" alt="" /></div>
+                    <div class="anim-relative wow fadeInLeftBig" data-wow-offset="150" data-wow-delay="1.5s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/relative.png" alt="" /></div>
+                    <div class="anim-motion-sensor wow fadeInLeftBig" data-wow-offset="120" data-wow-delay=".5s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/motion-sensor.png" alt="" /></div>
+                    <div class="anim-personal-alarm wow fadeInRightBig" data-wow-offset="200" data-wow-delay="0.3s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/personal-alarm.png" alt="" /></div>
+                    <div class="anim-healthcare-professional wow fadeInRightBig" data-wow-offset="150" data-wow-delay="1.3s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/healthcare-professional.png" alt="" /></div>
+                    <div class="anim-communication wow fadeInRightBig" data-wow-offset="120" data-wow-delay="0.9s"><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/communication.png" alt="" /></div>
                     <div class="anim-home wow fadeIn" ><img src="wp-content/themes/mystile_child/images/animations/home-page-connect/home.png" alt="" /></div>
+                </article>
+
+                <article class="full-width-feature light" id="extra-help">
+                    <div class="anim-mascot wow fadeIn" data-wow-offset="100" data-wow-delay=".2s"><img src="wp-content/themes/mystile_child/images/mascot/let-me-guide-you.png" alt="" /></div>
+                    <div class="buttons wow fadeIn" data-wow-delay=".8s">
+                        <div class="feature-button"><a href="/help-advice/online-assessment/">Take the Independent Living Assesment</a></div>
+                        <div class="feature-button"><a href="/help-advice/faqs/">Frequently Asked <br />Questions</a></div>
+                    </div>
                 </article>
 
                 <article class="full-width-feature dark" id="making-connections">
@@ -58,19 +66,19 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     <p>Our telecare and telehealth products alert you if something is up. Our simple to use computing devices help your loved-one connect online.</p>
                     <table>
                         <tr>
-                            <td class="wow bounceInUp" data-wow-offset="100"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/safety-monitors.png" alt="" /></td>
+                            <td class="wow fadeIn" data-wow-offset="100"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/safety-monitors.png" alt="" /></td>
                             <td><p>Environmental detectors will alert relatives or emergency responders in the event of a fire, flood or other hazardous situation.</p></td>
-                            <td class="wow bounceInUp" data-wow-offset="100" data-wow-delay="0.4s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/personal-alarms.png" alt="" /></td>
+                            <td class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.4s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/personal-alarms.png" alt="" /></td>
                             <td><p>Alarms can be worn about the person and activated by the wearer in case of emergency. They can even trigger automatically if the wearer is incapacitated.</p></td>
                         </tr>
                         <tr>
-                            <td class="wow bounceInUp" data-wow-offset="100" data-wow-delay="0.2s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/activity-monitors.png" alt="" /></td>
+                            <td class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.2s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/activity-monitors.png" alt="" /></td>
                             <td><p>Detectors can be used to monitor activity, alerting family or emergency responders in case of inactivity. They can help pinpoint a person's location to aid emergency services.</p></td>
-                            <td class="wow bounceInUp" data-wow-offset="100" data-wow-delay="0.6s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/communication.png" alt="" /></td>
+                            <td class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.6s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/communication.png" alt="" /></td>
                             <td><p>Easy-to-use phones and computing devices keep families connected and help those living independently stay in touch with the wider world.</p></td>
                         </tr>
                         <tr>
-                            <td class="wow bounceInUp" data-wow-offset="100" data-wow-delay="0.2s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/telehealth.png" alt="" /></td>
+                            <td class="wow fadeIn" data-wow-offset="100" data-wow-delay="0.2s"><img src="wp-content/themes/mystile_child/images/icons/features-benefits/telehealth.png" alt="" /></td>
                             <td><p>Telehealth devices monitor a person's medical condition and can alert family or carers if a problem is detected.</p></td>
                         </tr>
                     </table>
