@@ -164,3 +164,13 @@
 	// 	$include['trial_length'] = true;
 	// 	return $include;
 	// }
+
+	// Move sharing buttons to the right place on the product page
+	add_action( 'woocommerce_share', 'mtd_woocommerce_social_share_icons', 10 );
+	function mtd_woocommerce_social_share_icons() {
+	    if ( function_exists( 'sharing_display' ) ) {
+	        remove_filter( 'the_content', 'sharing_display', 19 );
+	        remove_filter( 'the_excerpt', 'sharing_display', 19 );
+	        echo sharing_display();
+	    }
+	}
