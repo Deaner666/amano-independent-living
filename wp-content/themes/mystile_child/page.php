@@ -110,6 +110,14 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     </ul>
                 </div>
 
+                <article class="full-width-feature-light" id="still-got-questions">
+                    <h1>Still got questions?</h1>
+                    <h2>Or maybe you just prefer a bit of human interaction?</h2>
+                    <p>If you need any information not covered by the website, or if you just prefer to talk to a real person, you can use our online chat facility by clicking on the orange box in the bottom right corner of the site.</p>
+                    <p>Alternatively, give us a call on <strong>01822 600060</strong>. We're always happy to talk!</p>
+                    <img class="wow fadeInRightBig" data-wow-offset="150" src="wp-content/themes/mystile_child/images/mascot/pointing-down-and-right.png" alt="" />
+                </article>
+
             <?php }
 
             	if ( have_posts() ) { $count = 0;

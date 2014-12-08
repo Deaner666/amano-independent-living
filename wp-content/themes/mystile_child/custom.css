@@ -581,6 +581,7 @@ body.home #breadcrumbs {
 /* Fancy buttons on home page */
 #home-page-buttons {
   width: 100%;
+  margin-bottom: 3.236em;
 }
 #home-page-buttons:after {
   content: "\0020";
@@ -625,6 +626,14 @@ body.home #breadcrumbs {
 }
 #home-page-buttons ul li:last-child a {
   margin-right: 0;
+}
+#still-got-questions {
+  text-align: center;
+}
+#still-got-questions img {
+  height: 175px;
+  margin-left: 450px;
+  margin-top: 1.618em;
 }
 #online-assessment-lede {
   text-align: left;
