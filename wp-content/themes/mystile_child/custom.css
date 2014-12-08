@@ -635,6 +635,26 @@ body.home #breadcrumbs {
   margin-left: 450px;
   margin-top: 1.618em;
 }
+.wpb_slider_area figcaption a {
+  border: 2px solid #000149;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #000149;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-shadow: none;
+  box-shadow: 0 0 0 0 #888888;
+  -webkit-box-shadow: 0 0 0 0 #888888;
+  text-shadow: 0 0 0 #ffffff;
+  padding: 5px 10px 10px 10px;
+}
+.wpb_slider_area figcaption a:hover {
+  background: #fff !important;
+  color: #000149 !important;
+}
 #online-assessment-lede {
   text-align: left;
 }

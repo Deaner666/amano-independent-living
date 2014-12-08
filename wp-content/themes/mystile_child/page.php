@@ -89,6 +89,10 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     </div>
                 </article>
 
+                <article class="full-width-feature light">
+                    <?php echo do_shortcode( '[wpb-latest-product title="Latest Products"]' ) ?>
+                </article>
+
                 <article class="full-width-feature light" id="your-peace-of-mind">
                     <h1>Your Peace of Mind</h1>
                     <h2>No more worrying about your loved-one’s wellbeing. No more panicky visits to check they’re OK.</h2>
@@ -113,7 +117,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                 <article class="full-width-feature-light" id="still-got-questions">
                     <h1>Still got questions?</h1>
                     <h2>Or maybe you just prefer a bit of human interaction?</h2>
-                    <p>If you need any information not covered by the website, or if you just prefer to talk to a real person, you can use our online chat facility by clicking on the orange box in the bottom right corner of the site.</p>
+                    <p>If you need any information not covered by the website, or if you prefer to talk to a real person, you can use our online chat facility by clicking on the orange box in the bottom right corner of the site.</p>
                     <p>Alternatively, give us a call on <strong>01822 600060</strong>. We're always happy to talk!</p>
                     <img class="wow fadeInRightBig" data-wow-offset="150" src="wp-content/themes/mystile_child/images/mascot/pointing-down-and-right.png" alt="" />
                 </article>
