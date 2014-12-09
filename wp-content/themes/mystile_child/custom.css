@@ -635,6 +635,9 @@ body.home #breadcrumbs {
   margin-left: 450px;
   margin-top: 1.618em;
 }
+.wpb_slider_area figcaption h3 {
+  font-weight: 400;
+}
 .wpb_slider_area figcaption a {
   border: 2px solid #000149;
   -webkit-border-radius: 6px;
@@ -649,7 +652,7 @@ body.home #breadcrumbs {
   box-shadow: 0 0 0 0 #888888;
   -webkit-box-shadow: 0 0 0 0 #888888;
   text-shadow: 0 0 0 #ffffff;
-  padding: 5px 10px 10px 10px;
+  padding: 7px 10px 10px 10px !important;
 }
 .wpb_slider_area figcaption a:hover {
   background: #fff !important;
