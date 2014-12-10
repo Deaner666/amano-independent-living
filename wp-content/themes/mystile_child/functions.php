@@ -7,6 +7,8 @@
 		// wp_enqueue_style( 'dashicons' );
 		wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic', array() );
 		wp_enqueue_style( 'animate', get_bloginfo( 'stylesheet_directory' ) . '/css/animate.css', array() );
+		wp_enqueue_script( 'jquery-cookie', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.cookie.js', array('jquery'), '', true );
+		wp_enqueue_script( 'jquery-text-resizer', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.textresizer.js', array('jquery-cookie'), '1.0', true );
 		wp_enqueue_script( 'wow', get_bloginfo( 'stylesheet_directory' ) . '/js/wow.min.js' );
 		wp_enqueue_script( 'site', get_bloginfo( 'stylesheet_directory' ) . '/js/site.js' );
 
