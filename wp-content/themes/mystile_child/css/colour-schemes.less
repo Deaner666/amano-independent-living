@@ -1,0 +1,125 @@
+/*-------------------------------------------------------*
+Colour Schemes
+*-------------------------------------------------------*/
+
+body.black-white-style {
+	@colour-scheme-bg: #fff;
+	@colour-scheme-text: #000;
+	.dependentCss();
+}
+
+body.black-yellow-style {
+	@colour-scheme-bg: #fce739;
+	@colour-scheme-text: #000;
+	.dependentCss();
+}
+
+body.yellow-black-style {
+	@colour-scheme-bg: #000;
+	@colour-scheme-text: #fce739;
+	.dependentCss();
+}
+
+body.black-cream-style {
+	@colour-scheme-bg: #fffde6;
+	@colour-scheme-text: #000;
+	.dependentCss();
+}
+
+// CSS common across all the colour schemes
+
+.dependentCss() {
+
+	html, body, #content { background: @colour-scheme-bg !important; }
+
+	h1, h2, h3, h4, h5, h6, p, li, th, td { color: @colour-scheme-text; }
+
+	#top, #header #navigation {
+		background: @colour-scheme-bg; color: @colour-scheme-text;
+		border: 1px solid @colour-scheme-text;
+		li a { color: @colour-scheme-text !important; }
+	}
+	#header #navigation li:hover,
+	#header #navigation li a { background: @colour-scheme-bg !important; }
+	ul.sub-menu {
+		background: @colour-scheme-bg !important;
+		border: 1px solid @colour-scheme-text !important;
+		li a:hover { background: @colour-scheme-text !important; }
+	}
+	#header #navigation ul.nav ul li a:hover { background: @colour-scheme-text !important; }
+	ul.nav > li.parent a:after { color: @colour-scheme-text !important; }
+
+	.feature-button a, #home-page-buttons a, .wooslider .button {
+		 border: 2px solid @colour-scheme-text; background: @colour-scheme-bg; color: @colour-scheme-text;
+		 &:hover { border: 2px solid @colour-scheme-bg; background: @colour-scheme-text; color: @colour-scheme-bg; }
+	}
+
+	.dark, .light {
+		background: @colour-scheme-bg;
+	}
+	.dark { border-top: 2px solid @colour-scheme-text; border-bottom: 2px solid @colour-scheme-text; }
+
+	.wooslider {
+		background: @colour-scheme-bg; border-color: @colour-scheme-bg;
+		.slide-title a {
+			color: @colour-scheme-text;
+			&:hover { color: @colour-scheme-text; text-decoration: underline; }
+		}
+	}
+
+	.symptoms li a {
+		background: @colour-scheme-bg; color: @colour-scheme-text;
+		&:hover { background: @colour-scheme-text; color: @colour-scheme-bg; }
+	}
+
+	.post h1 a {
+		color: @colour-scheme-text;
+		&:hover { text-decoration: underline; color: @colour-scheme-text; }
+	}
+	.post-meta a {
+		color: @colour-scheme-text;
+		&:hover { text-decoration: underline; color: @colour-scheme-text; }
+	}
+
+	#sidebar .primary {
+		background: @colour-scheme-bg !important; border: 1px solid @colour-scheme-text;
+		a { color: @colour-scheme-text; }
+	}
+
+	.footer-wrap {
+		background: @colour-scheme-text;
+		p { color: @colour-scheme-bg; }
+	}
+
+}
+
+// Overrides for special cases
+body.black-yellow-style {
+
+}
+
+body.yellow-black-style {
+	#header #navigation ul.nav ul li a:hover { color: #000 !important; }
+
+	.footer-wrap {
+		background: #000;
+		p { color: #fce739; }
+	}
+}
+
+body.black-cream-style {
+
+}
+
+
+/*-------------------------------------------------------*
+Font Sizes
+*-------------------------------------------------------*/
+
+body.medium-font {
+
+}
+
+body.large-font {
+	
+}

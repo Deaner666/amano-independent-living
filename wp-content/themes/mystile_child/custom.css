@@ -146,7 +146,6 @@ Masthead
   width: 15%;
   margin-left: 4%;
 }
-/* TODO */
 #colour-picker {
   float: right;
   list-style-type: none;
@@ -158,13 +157,10 @@ Masthead
   width: 24px;
   display: inline-block;
   text-indent: -9999px;
-  margin: 16% 3px 0 0;
+  margin: 30px 3px 0 0;
 }
 #colour-picker li:last-child {
   margin-right: 0;
-}
-#colour-picker li.normal-font {
-  margin-left: 10px;
 }
 #colour-picker a {
   display: block;
@@ -201,15 +197,6 @@ Masthead
 #colour-picker .black-cream {
   background: url('images/layout/font-colour-scheme-sprite.png') -192px 0 no-repeat;
 }
-#colour-picker .normal-font {
-  background: url('images/layout/font-colour-scheme-sprite.png') -120px 0 no-repeat;
-}
-#colour-picker .medium-font {
-  background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
-}
-#colour-picker .large-font {
-  background: url('images/layout/font-colour-scheme-sprite.png') -168px 0 no-repeat;
-}
 /* Serve retina image on hi-dpi devices */
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
   #colour-picker .full-colour {
@@ -245,10 +232,65 @@ Masthead
     background-size: 800%;
   }
 }
-/* TODO */
-#font-size-picker {
-  height: 23.5px;
-  margin-bottom: 10px;
+#font-resizer {
+  float: right;
+  list-style-type: none;
+  margin-right: 25px;
+}
+#font-resizer li {
+  float: left;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  text-indent: -9999px;
+  margin: 30px 3px 0 0;
+}
+#font-resizer li:last-child {
+  margin-right: 0;
+}
+#font-resizer a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+#font-resizer a:hover {
+  box-shadow: 0px 0px 6px 0px #ff9e21;
+  -webkit-box-shadow: 0px 0px 6px 0px #ff9e21;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#font-resizer .normal-font {
+  background: url('images/layout/font-colour-scheme-sprite.png') -120px 0 no-repeat;
+}
+#font-resizer .medium-font {
+  background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
+}
+#font-resizer .large-font {
+  background: url('images/layout/font-colour-scheme-sprite.png') -168px 0 no-repeat;
+}
+/* Serve retina image on hi-dpi devices */
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
+  #font-resizer .normal-font {
+    background: url('images/layout/font-colour-scheme-sprite.png') -120px 0 no-repeat;
+    background-size: 800%;
+  }
+  #font-resizer .medium-font {
+    background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
+    background-size: 800%;
+  }
+  #font-resizer .large-font {
+    background: url('images/layout/font-colour-scheme-sprite.png') -168px 0 no-repeat;
+    background-size: 800%;
+  }
 }
 /* Main Navigation */
 #header .nav-toggle {
@@ -1105,3 +1147,466 @@ Footer
   border-right: 1px solid #e0ebf3;
   padding-right: 15px;
 }
+/*-------------------------------------------------------*
+Colour Schemes
+*-------------------------------------------------------*/
+body.black-white-style html,
+body.black-white-style body,
+body.black-white-style #content {
+  background: #ffffff !important;
+}
+body.black-white-style h1,
+body.black-white-style h2,
+body.black-white-style h3,
+body.black-white-style h4,
+body.black-white-style h5,
+body.black-white-style h6,
+body.black-white-style p,
+body.black-white-style li,
+body.black-white-style th,
+body.black-white-style td {
+  color: #000000;
+}
+body.black-white-style #top,
+body.black-white-style #header #navigation {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+body.black-white-style #top li a,
+body.black-white-style #header #navigation li a {
+  color: #000000 !important;
+}
+body.black-white-style #header #navigation li:hover,
+body.black-white-style #header #navigation li a {
+  background: #ffffff !important;
+}
+body.black-white-style ul.sub-menu {
+  background: #ffffff !important;
+  border: 1px solid #000000 !important;
+}
+body.black-white-style ul.sub-menu li a:hover {
+  background: #000000 !important;
+}
+body.black-white-style #header #navigation ul.nav ul li a:hover {
+  background: #000000 !important;
+}
+body.black-white-style ul.nav > li.parent a:after {
+  color: #000000 !important;
+}
+body.black-white-style .feature-button a,
+body.black-white-style #home-page-buttons a,
+body.black-white-style .wooslider .button {
+  border: 2px solid #000000;
+  background: #ffffff;
+  color: #000000;
+}
+body.black-white-style .feature-button a:hover,
+body.black-white-style #home-page-buttons a:hover,
+body.black-white-style .wooslider .button:hover {
+  border: 2px solid #ffffff;
+  background: #000000;
+  color: #ffffff;
+}
+body.black-white-style .dark,
+body.black-white-style .light {
+  background: #ffffff;
+}
+body.black-white-style .dark {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+body.black-white-style .wooslider {
+  background: #ffffff;
+  border-color: #ffffff;
+}
+body.black-white-style .wooslider .slide-title a {
+  color: #000000;
+}
+body.black-white-style .wooslider .slide-title a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+body.black-white-style .symptoms li a {
+  background: #ffffff;
+  color: #000000;
+}
+body.black-white-style .symptoms li a:hover {
+  background: #000000;
+  color: #ffffff;
+}
+body.black-white-style .post h1 a {
+  color: #000000;
+}
+body.black-white-style .post h1 a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-white-style .post-meta a {
+  color: #000000;
+}
+body.black-white-style .post-meta a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-white-style #sidebar .primary {
+  background: #ffffff !important;
+  border: 1px solid #000000;
+}
+body.black-white-style #sidebar .primary a {
+  color: #000000;
+}
+body.black-white-style .footer-wrap {
+  background: #000000;
+}
+body.black-white-style .footer-wrap p {
+  color: #ffffff;
+}
+body.black-yellow-style html,
+body.black-yellow-style body,
+body.black-yellow-style #content {
+  background: #fce739 !important;
+}
+body.black-yellow-style h1,
+body.black-yellow-style h2,
+body.black-yellow-style h3,
+body.black-yellow-style h4,
+body.black-yellow-style h5,
+body.black-yellow-style h6,
+body.black-yellow-style p,
+body.black-yellow-style li,
+body.black-yellow-style th,
+body.black-yellow-style td {
+  color: #000000;
+}
+body.black-yellow-style #top,
+body.black-yellow-style #header #navigation {
+  background: #fce739;
+  color: #000000;
+  border: 1px solid #000000;
+}
+body.black-yellow-style #top li a,
+body.black-yellow-style #header #navigation li a {
+  color: #000000 !important;
+}
+body.black-yellow-style #header #navigation li:hover,
+body.black-yellow-style #header #navigation li a {
+  background: #fce739 !important;
+}
+body.black-yellow-style ul.sub-menu {
+  background: #fce739 !important;
+  border: 1px solid #000000 !important;
+}
+body.black-yellow-style ul.sub-menu li a:hover {
+  background: #000000 !important;
+}
+body.black-yellow-style #header #navigation ul.nav ul li a:hover {
+  background: #000000 !important;
+}
+body.black-yellow-style ul.nav > li.parent a:after {
+  color: #000000 !important;
+}
+body.black-yellow-style .feature-button a,
+body.black-yellow-style #home-page-buttons a,
+body.black-yellow-style .wooslider .button {
+  border: 2px solid #000000;
+  background: #fce739;
+  color: #000000;
+}
+body.black-yellow-style .feature-button a:hover,
+body.black-yellow-style #home-page-buttons a:hover,
+body.black-yellow-style .wooslider .button:hover {
+  border: 2px solid #fce739;
+  background: #000000;
+  color: #fce739;
+}
+body.black-yellow-style .dark,
+body.black-yellow-style .light {
+  background: #fce739;
+}
+body.black-yellow-style .dark {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+body.black-yellow-style .wooslider {
+  background: #fce739;
+  border-color: #fce739;
+}
+body.black-yellow-style .wooslider .slide-title a {
+  color: #000000;
+}
+body.black-yellow-style .wooslider .slide-title a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+body.black-yellow-style .symptoms li a {
+  background: #fce739;
+  color: #000000;
+}
+body.black-yellow-style .symptoms li a:hover {
+  background: #000000;
+  color: #fce739;
+}
+body.black-yellow-style .post h1 a {
+  color: #000000;
+}
+body.black-yellow-style .post h1 a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-yellow-style .post-meta a {
+  color: #000000;
+}
+body.black-yellow-style .post-meta a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-yellow-style #sidebar .primary {
+  background: #fce739 !important;
+  border: 1px solid #000000;
+}
+body.black-yellow-style #sidebar .primary a {
+  color: #000000;
+}
+body.black-yellow-style .footer-wrap {
+  background: #000000;
+}
+body.black-yellow-style .footer-wrap p {
+  color: #fce739;
+}
+body.yellow-black-style html,
+body.yellow-black-style body,
+body.yellow-black-style #content {
+  background: #000000 !important;
+}
+body.yellow-black-style h1,
+body.yellow-black-style h2,
+body.yellow-black-style h3,
+body.yellow-black-style h4,
+body.yellow-black-style h5,
+body.yellow-black-style h6,
+body.yellow-black-style p,
+body.yellow-black-style li,
+body.yellow-black-style th,
+body.yellow-black-style td {
+  color: #fce739;
+}
+body.yellow-black-style #top,
+body.yellow-black-style #header #navigation {
+  background: #000000;
+  color: #fce739;
+  border: 1px solid #fce739;
+}
+body.yellow-black-style #top li a,
+body.yellow-black-style #header #navigation li a {
+  color: #fce739 !important;
+}
+body.yellow-black-style #header #navigation li:hover,
+body.yellow-black-style #header #navigation li a {
+  background: #000000 !important;
+}
+body.yellow-black-style ul.sub-menu {
+  background: #000000 !important;
+  border: 1px solid #fce739 !important;
+}
+body.yellow-black-style ul.sub-menu li a:hover {
+  background: #fce739 !important;
+}
+body.yellow-black-style #header #navigation ul.nav ul li a:hover {
+  background: #fce739 !important;
+}
+body.yellow-black-style ul.nav > li.parent a:after {
+  color: #fce739 !important;
+}
+body.yellow-black-style .feature-button a,
+body.yellow-black-style #home-page-buttons a,
+body.yellow-black-style .wooslider .button {
+  border: 2px solid #fce739;
+  background: #000000;
+  color: #fce739;
+}
+body.yellow-black-style .feature-button a:hover,
+body.yellow-black-style #home-page-buttons a:hover,
+body.yellow-black-style .wooslider .button:hover {
+  border: 2px solid #000000;
+  background: #fce739;
+  color: #000000;
+}
+body.yellow-black-style .dark,
+body.yellow-black-style .light {
+  background: #000000;
+}
+body.yellow-black-style .dark {
+  border-top: 2px solid #fce739;
+  border-bottom: 2px solid #fce739;
+}
+body.yellow-black-style .wooslider {
+  background: #000000;
+  border-color: #000000;
+}
+body.yellow-black-style .wooslider .slide-title a {
+  color: #fce739;
+}
+body.yellow-black-style .wooslider .slide-title a:hover {
+  color: #fce739;
+  text-decoration: underline;
+}
+body.yellow-black-style .symptoms li a {
+  background: #000000;
+  color: #fce739;
+}
+body.yellow-black-style .symptoms li a:hover {
+  background: #fce739;
+  color: #000000;
+}
+body.yellow-black-style .post h1 a {
+  color: #fce739;
+}
+body.yellow-black-style .post h1 a:hover {
+  text-decoration: underline;
+  color: #fce739;
+}
+body.yellow-black-style .post-meta a {
+  color: #fce739;
+}
+body.yellow-black-style .post-meta a:hover {
+  text-decoration: underline;
+  color: #fce739;
+}
+body.yellow-black-style #sidebar .primary {
+  background: #000000 !important;
+  border: 1px solid #fce739;
+}
+body.yellow-black-style #sidebar .primary a {
+  color: #fce739;
+}
+body.yellow-black-style .footer-wrap {
+  background: #fce739;
+}
+body.yellow-black-style .footer-wrap p {
+  color: #000000;
+}
+body.black-cream-style html,
+body.black-cream-style body,
+body.black-cream-style #content {
+  background: #fffde6 !important;
+}
+body.black-cream-style h1,
+body.black-cream-style h2,
+body.black-cream-style h3,
+body.black-cream-style h4,
+body.black-cream-style h5,
+body.black-cream-style h6,
+body.black-cream-style p,
+body.black-cream-style li,
+body.black-cream-style th,
+body.black-cream-style td {
+  color: #000000;
+}
+body.black-cream-style #top,
+body.black-cream-style #header #navigation {
+  background: #fffde6;
+  color: #000000;
+  border: 1px solid #000000;
+}
+body.black-cream-style #top li a,
+body.black-cream-style #header #navigation li a {
+  color: #000000 !important;
+}
+body.black-cream-style #header #navigation li:hover,
+body.black-cream-style #header #navigation li a {
+  background: #fffde6 !important;
+}
+body.black-cream-style ul.sub-menu {
+  background: #fffde6 !important;
+  border: 1px solid #000000 !important;
+}
+body.black-cream-style ul.sub-menu li a:hover {
+  background: #000000 !important;
+}
+body.black-cream-style #header #navigation ul.nav ul li a:hover {
+  background: #000000 !important;
+}
+body.black-cream-style ul.nav > li.parent a:after {
+  color: #000000 !important;
+}
+body.black-cream-style .feature-button a,
+body.black-cream-style #home-page-buttons a,
+body.black-cream-style .wooslider .button {
+  border: 2px solid #000000;
+  background: #fffde6;
+  color: #000000;
+}
+body.black-cream-style .feature-button a:hover,
+body.black-cream-style #home-page-buttons a:hover,
+body.black-cream-style .wooslider .button:hover {
+  border: 2px solid #fffde6;
+  background: #000000;
+  color: #fffde6;
+}
+body.black-cream-style .dark,
+body.black-cream-style .light {
+  background: #fffde6;
+}
+body.black-cream-style .dark {
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+}
+body.black-cream-style .wooslider {
+  background: #fffde6;
+  border-color: #fffde6;
+}
+body.black-cream-style .wooslider .slide-title a {
+  color: #000000;
+}
+body.black-cream-style .wooslider .slide-title a:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+body.black-cream-style .symptoms li a {
+  background: #fffde6;
+  color: #000000;
+}
+body.black-cream-style .symptoms li a:hover {
+  background: #000000;
+  color: #fffde6;
+}
+body.black-cream-style .post h1 a {
+  color: #000000;
+}
+body.black-cream-style .post h1 a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-cream-style .post-meta a {
+  color: #000000;
+}
+body.black-cream-style .post-meta a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+body.black-cream-style #sidebar .primary {
+  background: #fffde6 !important;
+  border: 1px solid #000000;
+}
+body.black-cream-style #sidebar .primary a {
+  color: #000000;
+}
+body.black-cream-style .footer-wrap {
+  background: #000000;
+}
+body.black-cream-style .footer-wrap p {
+  color: #fffde6;
+}
+body.yellow-black-style #header #navigation ul.nav ul li a:hover {
+  color: #000 !important;
+}
+body.yellow-black-style .footer-wrap {
+  background: #000;
+}
+body.yellow-black-style .footer-wrap p {
+  color: #fce739;
+}
+/*-------------------------------------------------------*
+Font Sizes
+*-------------------------------------------------------*/

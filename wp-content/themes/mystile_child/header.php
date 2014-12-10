@@ -80,15 +80,18 @@ global $woo_options, $woocommerce;
 			</div>
 		<?php } ?>
 
+		<ul id="font-resizer">
+			<li class="normal-font"><a class="small-style" href="javascript:;">Normal Font Size</a></li>
+			<li class="medium-font"><a class="medium-style" href="javascript:;">Medium Font Size</a></li>
+			<li class="large-font"><a class="large-style" href="javascript:;">Large Font Size</a></li>
+		</ul>
+
 		<ul id="colour-picker">
-			<li class="full-colour"><a href="javascript:;">Full Colour</a></li>
-			<li class="black-white"><a href="javascript:;">Black on White</a></li>
-			<li class="black-yellow"><a href="javascript:;">Black on Yellow</a></li>
-			<li class="yellow-black"><a href="javascript:;">Yellow on Black</a></li>
-			<li class="black-cream"><a href="javascript:;">Black on Cream</a></li>
-			<li class="normal-font"><a href="javascript:;">Normal Font Size</a></li>
-			<li class="medium-font"><a href="javascript:;">Medium Font Size</a></li>
-			<li class="large-font"><a href="javascript:;">Large Font Size</a></li>
+			<li class="full-colour"><a class="full-colour-style" href="javascript:;">Full Colour</a></li>
+			<li class="black-white"><a class="black-white-style" href="javascript:;">Black on White</a></li>
+			<li class="black-yellow"><a class="black-yellow-style" href="javascript:;">Black on Yellow</a></li>
+			<li class="yellow-black"><a class="yellow-black-style" href="javascript:;">Yellow on Black</a></li>
+			<li class="black-cream"><a class="black-cream-style" href="javascript:;">Black on Cream</a></li>
 		</ul>
 
 		<h3 class="nav-toggle"><a href="#navigation">&#9776; &nbsp; Toggle Main Menu<span><?php _e('Navigation', 'woothemes'); ?></span></a></h3>
