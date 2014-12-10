@@ -185,18 +185,23 @@ Masthead
 }
 #colour-picker .full-colour {
   background: url('images/layout/font-colour-scheme-sprite.png') 0 0 no-repeat;
+  background-size: 50%;
 }
 #colour-picker .black-white {
   background: url('images/layout/font-colour-scheme-sprite.png') -48px 0 no-repeat;
+  background-size: 50%;
 }
 #colour-picker .black-yellow {
   background: url('images/layout/font-colour-scheme-sprite.png') -96px 0 no-repeat;
+  background-size: 50%;
 }
 #colour-picker .yellow-black {
   background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
+  background-size: 50%;
 }
 #colour-picker .black-cream {
   background: url('images/layout/font-colour-scheme-sprite.png') -192px 0 no-repeat;
+  background-size: 50%;
 }
 /* Serve retina image on hi-dpi devices */
 @media only screen and (-Webkit-min-device-pixel-ratio: 1.5), only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 3/2), only screen and (min-device-pixel-ratio: 1.5) {
