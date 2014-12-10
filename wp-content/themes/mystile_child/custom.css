@@ -188,19 +188,19 @@ Masthead
   background-size: 800%;
 }
 #colour-picker .black-white {
-  background: url('images/layout/font-colour-scheme-sprite.png') -48px 0 no-repeat;
+  background: url('images/layout/font-colour-scheme-sprite.png') -24px 0 no-repeat;
   background-size: 800%;
 }
 #colour-picker .black-yellow {
-  background: url('images/layout/font-colour-scheme-sprite.png') -96px 0 no-repeat;
+  background: url('images/layout/font-colour-scheme-sprite.png') -48px 0 no-repeat;
   background-size: 800%;
 }
 #colour-picker .yellow-black {
-  background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
+  background: url('images/layout/font-colour-scheme-sprite.png') -72px 0 no-repeat;
   background-size: 800%;
 }
 #colour-picker .black-cream {
-  background: url('images/layout/font-colour-scheme-sprite.png') -192px 0 no-repeat;
+  background: url('images/layout/font-colour-scheme-sprite.png') -96px 0 no-repeat;
   background-size: 800%;
 }
 /* Serve retina image on hi-dpi devices */
@@ -223,18 +223,6 @@ Masthead
   }
   #colour-picker .black-cream {
     background: url('images/layout/font-colour-scheme-sprite.png') -96px 0 no-repeat;
-    background-size: 800%;
-  }
-  #colour-picker .normal-font {
-    background: url('images/layout/font-colour-scheme-sprite.png') -120px 0 no-repeat;
-    background-size: 800%;
-  }
-  #colour-picker .medium-font {
-    background: url('images/layout/font-colour-scheme-sprite.png') -144px 0 no-repeat;
-    background-size: 800%;
-  }
-  #colour-picker .large-font {
-    background: url('images/layout/font-colour-scheme-sprite.png') -168px 0 no-repeat;
     background-size: 800%;
   }
 }
