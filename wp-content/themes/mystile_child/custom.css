@@ -664,6 +664,10 @@ body.home #breadcrumbs {
   background: #fff;
   border-color: #000149;
 }
+.wooslider .slides > li img,
+.entry .wooslider .slides > li img {
+  border: 1px solid #eee;
+}
 #online-assessment-lede {
   text-align: left;
 }
