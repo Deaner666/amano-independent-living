@@ -90,7 +90,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                 </article>
 
                 <article class="full-width-feature light">
-                    <?php echo do_shortcode( '[wpb-latest-product title="Latest Products"]' ) ?>
+                    <?php echo do_shortcode( '[wooslider slider_type="products" size="medium" link_title_to+product="true" display_only_featured="true"]' ) ?>
                 </article>
 
                 <article class="full-width-feature light" id="your-peace-of-mind">
