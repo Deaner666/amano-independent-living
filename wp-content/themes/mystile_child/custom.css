@@ -635,28 +635,34 @@ body.home #breadcrumbs {
   margin-left: 450px;
   margin-top: 1.618em;
 }
-.wpb_slider_area figcaption h3 {
-  font-weight: 400;
+.wooslider {
+  box-shadow: 0 0 0 0 #888888;
+  -webkit-box-shadow: 0 0 0 0 #888888;
 }
-.wpb_slider_area figcaption a {
+.wooslider a.button {
   border: 2px solid #000149;
+  text-shadow: 0 0 0 #ffffff;
+  box-shadow: 0 0 0 0 #888888;
+  -webkit-box-shadow: 0 0 0 0 #888888;
   -webkit-border-radius: 6px;
   border-radius: 6px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #000149;
-  font-family: "Lato", sans-serif;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
   color: #fff;
-  text-shadow: none;
-  box-shadow: 0 0 0 0 #888888;
-  -webkit-box-shadow: 0 0 0 0 #888888;
-  text-shadow: 0 0 0 #ffffff;
-  padding: 7px 10px 10px 10px !important;
+  background: #000149;
+  margin-bottom: 1.618em;
+  display: block;
+  clear: both;
+  margin: 1.618em 0 0 0;
 }
-.wpb_slider_area figcaption a:hover {
-  background: #fff !important;
-  color: #000149 !important;
+.wooslider a.button:hover {
+  color: #000149;
+  background: #fff;
+  border-color: #000149;
 }
 #online-assessment-lede {
   text-align: left;

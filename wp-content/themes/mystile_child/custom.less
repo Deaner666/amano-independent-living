@@ -335,14 +335,24 @@ body.home #breadcrumbs { display: none; }
 }
 
 // WPB Slider
-.wpb_slider_area figcaption h3 { font-weight: 400; }
-.wpb_slider_area figcaption a {
-  border: 2px solid @amano-blue; .border_radius(6px); background: @amano-blue;
-  font-family: @lato; color: #fff; text-shadow: none; .box_shadow(0,0,0,0);
-  .text_shadow(0,0,0); padding: 7px 10px 10px 10px !important;
-  &:hover {
-    background: #fff !important; color: @amano-blue !important;
-  }
+// .wpb_slider_area figcaption h3 { font-weight: 400; }
+// .wpb_slider_area figcaption a {
+//   border: 2px solid @amano-blue; .border_radius(6px); background: @amano-blue;
+//   font-family: @lato; color: #fff; text-shadow: none; .box_shadow(0,0,0,0);
+//   .text_shadow(0,0,0); padding: 7px 10px 10px 10px !important;
+//   &:hover {
+//     background: #fff !important; color: @amano-blue !important;
+//   }
+// }
+
+// WooSlider (with Products extension)
+.wooslider { .box_shadow(0,0,0,0); }
+.wooslider a.button {
+  border: 2px solid @amano-blue; .text_shadow(0,0,0); .box_shadow(0,0,0,0);
+  .border_radius(6px); width: 200px; padding: 10px;
+  text-align: center; color: #fff; background: @amano-blue; margin-bottom: 1.618em;
+  display: block; clear: both; margin: 1.618em 0 0 0;
+  &:hover { color: @amano-blue; background: #fff; border-color: @amano-blue; }
 }
 
 #online-assessment-lede {
