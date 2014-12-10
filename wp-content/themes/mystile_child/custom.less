@@ -54,6 +54,7 @@ Masthead
 #top {
   background: none; margin: 0; padding: 0; height: 50px;
   float: right; min-width: 50%; background: @amano-blue;
+  font-size: 14px;
   .border_radius_bottom_left(8px);
   .amano-top-nav {
     ul#top-nav {
@@ -437,7 +438,7 @@ body.home #breadcrumbs { display: none; }
     a {
       display: inline-block; width: 150px; height: 150px;
       border: 3px solid @amano-blue; text-align: center;
-      .border_radius(8px); margin: 0 20px 1.618em 0;
+      .border_radius(8px); margin: 0 20px 1.618em 0; font-size: 14px;
       background: @amano-blue; color: #fff; padding: 10px;
       &:hover {
         color: @amano-blue; background: none;
@@ -627,3 +628,5 @@ Footer
 }
 
 @import url(css/colour-schemes.less);
+
+@import url(css/font-sizes.less);

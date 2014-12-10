@@ -72,6 +72,7 @@ Masthead
   float: right;
   min-width: 50%;
   background: #000149;
+  font-size: 14px;
   -webkit-border-bottom-left-radius: 8px;
   border-bottom-left-radius: 8px;
   -moz-background-clip: padding;
@@ -865,6 +866,7 @@ body.home #breadcrumbs {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   margin: 0 20px 1.618em 0;
+  font-size: 14px;
   background: #000149;
   color: #fff;
   padding: 10px;
@@ -1610,3 +1612,9 @@ body.yellow-black-style .footer-wrap p {
 /*-------------------------------------------------------*
 Font Sizes
 *-------------------------------------------------------*/
+body.medium-style {
+  font-size: 1.6em !important;
+}
+body.large-style {
+  font-size: 1.8em !important;
+}
