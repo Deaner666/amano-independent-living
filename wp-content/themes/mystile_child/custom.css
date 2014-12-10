@@ -635,9 +635,14 @@ body.home #breadcrumbs {
   margin-left: 450px;
   margin-top: 1.618em;
 }
+#product-slider {
+  text-align: center;
+  padding-bottom: 0;
+}
 .wooslider {
   box-shadow: 0 0 0 0 #888888;
   -webkit-box-shadow: 0 0 0 0 #888888;
+  margin-bottom: 0 !important;
 }
 .wooslider a.button {
   border: 2px solid #000149;

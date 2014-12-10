@@ -89,7 +89,8 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                     </div>
                 </article>
 
-                <article class="full-width-feature light">
+                <article class="full-width-feature light" id="product-slider">
+                    <h1>Latest Products</h1>
                     <?php echo do_shortcode( '[wooslider slider_type="products" animation="slide" smoothheight="false" pause_on_hover="true" control_nav="false" size="large" link_title_to_product="true" display_only_featured="true"]' ) ?>
                 </article>
 
