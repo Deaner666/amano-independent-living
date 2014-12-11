@@ -164,8 +164,8 @@ only screen and (min-device-pixel-ratio: 1.5) {
 
 /* Main Navigation */
 #header .nav-toggle {
-  position: relative; clear: both; width: 100%; margin: 0 0 40px 0;
-  .border_radius(0);
+  position: relative; clear: both; width: 100%; margin: 0 0 10px 0;
+  .border_radius(0); .borderbox(); padding: 5px; height: auto;
 }
 #header #navigation {
 	clear: both; width: 100%; margin: 0; padding: 0; background: @amano-blue;
@@ -660,11 +660,19 @@ Less than 768px wide
 
   #header .site-title {
     width: 92%; max-width: 100%; float: none; clear: both;
-    position: relative; margin: 0 4% 0 4%;
+    position: relative; margin: 0 4% 10px 4%;
   }
 
   #font-resizer, #colour-picker { display: none; }
 
+  #header #navigation {
+    .borderbox(); border: none; height: 100%; margin-bottom: 20px;
+  }
+  #header #navigation ul li {
+    width: 100% !important; text-align: center; .borderbox(); height: 40px;
+    a { height: 28px !important; padding: 7px 5px 5px 5px !important; }
+  }
+  #header #navigation ul ul { display: none; }
 }
 
 
