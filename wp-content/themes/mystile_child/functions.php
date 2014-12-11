@@ -11,7 +11,13 @@
 		wp_enqueue_script( 'jquery-text-resizer', get_bloginfo( 'stylesheet_directory' ) . '/js/jquery.textresizer.js', array('jquery-cookie'), '1.0', true );
 		wp_enqueue_script( 'wow', get_bloginfo( 'stylesheet_directory' ) . '/js/wow.min.js' );
 		wp_enqueue_script( 'site', get_bloginfo( 'stylesheet_directory' ) . '/js/site.js' );
+		wp_dequeue_script( 'general' );
 
+	}
+
+	add_action( 'wp_print_scripts', 'mtd_dequeue_scripts', 100 );
+	function mtd_dequeue_scripts() {
+	   wp_dequeue_script( 'general' ); // Scripts copied to our own site.js
 	}
 
 	add_shortcode( 'best_selling_products_by_cat', 'best_selling_products_by_cat' );

@@ -629,3 +629,56 @@ Footer
 @import url(css/colour-schemes.less);
 
 @import url(css/font-sizes.less);
+
+/*-------------------------------------------------------*
+Less than 768px wide
+*-------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+
+  #top {
+    width: 100%; .border_radius(0); margin-bottom: 20px;
+    .amano-top-nav {
+      ul#top-nav {
+        margin: 0; padding: 0; width: 25%; display: none;
+      }
+      .wc-cart {
+        margin: 10px 0 0 0; padding: 0 0 0 2%; width: 100%;
+        span { margin-right: 7px !important; }
+        li { width: 50%; max-width: 50%; }
+      }
+      .wc-search {
+        margin: 0; padding: 0; width: 25%; display: none;
+      }
+    }
+  }
+  #top .wc-nav li.cart a { display: inline; margin: 0; padding: 0 !important; }
+  #top .wc-nav li.cart a .contents { display: inline; color: #fff; }
+  #top .wc-nav li.checkout {
+    display: inline !important; margin: 1px 0 0 0; padding: 0; text-align: left; float: left;
+  }
+  #top li.checkout a { display: inline !important; margin: 0; padding: 0; }
+
+  #header .site-title {
+    width: 92%; max-width: 100%; float: none; clear: both;
+    position: relative; margin: 0 4% 0 4%;
+  }
+
+  #font-resizer, #colour-picker { display: none; }
+
+}
+
+
+/*-------------------------------------------------------*
+Between 768px and 1025px wide
+*-------------------------------------------------------*/
+@media only screen and (min-width: 768px)  and (max-width: 1025px) {
+
+}
+
+
+/*-------------------------------------------------------*
+Only greater than 768px wide
+*-------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+
+}
