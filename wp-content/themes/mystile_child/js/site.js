@@ -1,6 +1,9 @@
 jQuery(document).ready(function() {
 
-	new WOW().init();
+	// Enable wow.js to call animate.css on page scroll
+	if (jQuery(window).width() > 768) {
+	   new WOW().init();
+	}
 
 	// Colour scheme
 	jQuery( "#colour-picker a" ).textresizer({

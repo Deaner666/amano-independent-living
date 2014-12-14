@@ -651,6 +651,9 @@ body.home #breadcrumbs {
 #home-page-lede-buttons #ready-to-shop {
   float: right;
 }
+#independent-living .connected-icon {
+  display: none;
+}
 /* Specific feature block overrides */
 #connect-animation {
   top: -100px;
@@ -1644,6 +1647,17 @@ body.large-style {
 Less than 768px wide
 *-------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
   #top {
     width: 100%;
     -webkit-border-radius: 0;
@@ -1652,6 +1666,11 @@ Less than 768px wide
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     margin-bottom: 20px;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    position: fixed !important;
+    -webkit-backface-visibility: hidden;
   }
   #top .amano-top-nav ul#top-nav {
     margin: 0;
@@ -1704,7 +1723,11 @@ Less than 768px wide
     float: none;
     clear: both;
     position: relative;
-    margin: 0 4% 10px 4%;
+    margin: 70px 4% 10px 4%;
+    display: block;
+  }
+  #header .advisor-header {
+    display: none;
   }
   #font-resizer,
   #colour-picker {
@@ -1738,6 +1761,157 @@ Less than 768px wide
   }
   #header #navigation ul ul {
     display: none;
+  }
+  #independent-living {
+    padding-top: 1.618em;
+  }
+  #independent-living #help-me-choose {
+    clear: both !important;
+    margin: 0 auto;
+    float: none;
+  }
+  #independent-living #ready-to-shop {
+    clear: both !important;
+    margin: 0 auto;
+    float: none;
+  }
+  #independent-living .connected-icon {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #connect-animation {
+    display: none;
+  }
+  #extra-help {
+    padding-top: 1.618em;
+    position: relative;
+  }
+  #extra-help .anim-mascot {
+    margin: 0;
+    padding: 0;
+    clear: both;
+    left: 0%;
+    width: 100%;
+    position: relative;
+  }
+  #extra-help .anim-mascot img {
+    width: 80%;
+    margin: 0 10%;
+    position: relative;
+    padding: 0;
+  }
+  #extra-help .buttons {
+    clear: both;
+    position: relative;
+    left: 50%;
+    margin: 0 0 0 -102px;
+  }
+  #extra-help .buttons .feature-button {
+    clear: both;
+    position: relative;
+  }
+  #extra-help .buttons .feature-button a {
+    margin: 20px auto 0 auto;
+    position: relative;
+    display: block;
+  }
+  #making-connections td {
+    display: block;
+    clear: both;
+    float: none;
+    text-align: center;
+  }
+  #making-connections td img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+  #making-connections .center {
+    position: relative;
+    left: 50%;
+    margin-left: -112px;
+  }
+  #making-connections .feature-button {
+    clear: both;
+  }
+  #making-connections .feature-button a {
+    margin: 20px 0 0 0;
+  }
+  #product-slider {
+    display: none;
+  }
+  #home-page-buttons ul {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  #home-page-buttons li {
+    clear: both;
+    width: 100%;
+    max-width: 100%;
+    left: 50%;
+    margin-left: -112px;
+    display: block;
+    position: relative;
+  }
+  #home-page-buttons ul li a {
+    margin: 20px 0 0 0;
+    width: 200px;
+  }
+  #still-got-questions img {
+    margin: 0;
+    padding: 0;
+  }
+  #online-assessment-lede img {
+    clear: both;
+    float: none;
+    width: 30%;
+    margin: 0 35% 20px 35%;
+  }
+  #online-assessment-lede .feature-button {
+    left: 50%;
+    margin-left: -112px;
+    position: relative;
+  }
+  #online-assessment-lede .feature-button a {
+    margin-right: 0;
+  }
+  #live-chat-lede img {
+    clear: both;
+    float: none;
+    width: 20%;
+    margin: 0 40% 20px 40%;
+  }
+  #assessment-buttons .narrower {
+    width: 100%;
+  }
+  #assessment-buttons div {
+    clear: both;
+    float: none;
+  }
+  #assessment-buttons img {
+    float: none;
+    margin: 0 auto !important;
+  }
+  #live-chat-remind img {
+    clear: both;
+    float: none;
+    width: 20%;
+    margin: 0 40% 20px 40%;
+  }
+  .footer-wrap p {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  #footer {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #footer .footer-logo {
+    clear: both;
   }
 }
 /*-------------------------------------------------------*

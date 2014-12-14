@@ -328,6 +328,8 @@ body.home #breadcrumbs { display: none; }
   #ready-to-shop { float: right; }
 }
 
+#independent-living .connected-icon { display: none; }
+
 /* Specific feature block overrides */
 #connect-animation {
   top: -100px; height: 370px; max-height: 370px; background: none;
@@ -635,8 +637,13 @@ Less than 768px wide
 *-------------------------------------------------------*/
 @media only screen and (max-width: 768px) {
 
+  h1, h2, h3, h4, h5, h6 { text-align: center; }
+  p { text-align: center; }
+
   #top {
     width: 100%; .border_radius(0); margin-bottom: 20px;
+    z-index: 10000; top: 0; left: 0; position: fixed !important;
+    -webkit-backface-visibility: hidden;
     .amano-top-nav {
       ul#top-nav {
         margin: 0; padding: 0; width: 25%; display: none;
@@ -660,8 +667,10 @@ Less than 768px wide
 
   #header .site-title {
     width: 92%; max-width: 100%; float: none; clear: both;
-    position: relative; margin: 0 4% 10px 4%;
+    position: relative; margin: 70px 4% 10px 4%; display: block;
   }
+
+  #header .advisor-header { display: none; }
 
   #font-resizer, #colour-picker { display: none; }
 
@@ -673,13 +682,95 @@ Less than 768px wide
     a { height: 28px !important; padding: 7px 5px 5px 5px !important; }
   }
   #header #navigation ul ul { display: none; }
+
+  // Home Page
+  #independent-living {
+    padding-top: 1.618em;
+    #help-me-choose { clear: both !important; margin:0 auto; float: none; }
+    #ready-to-shop { clear: both !important; margin:0 auto; float: none;}
+    .connected-icon { display: block; width: 100%; margin-bottom: 10px; }
+  }
+
+  #connect-animation { display: none; }
+
+  #extra-help {
+    padding-top: 1.618em; position: relative;
+    .anim-mascot {
+      margin: 0; padding: 0; clear: both; left: 0%; width: 100%; position: relative;
+      img { width: 80%; margin: 0 10%; position: relative; padding: 0; }
+    }
+    .buttons {
+      clear: both; position: relative; left: 50%; margin: 0 0 0 -102px;
+      .feature-button {
+        clear: both; position: relative;
+        a { margin: 20px auto 0 auto; position: relative; display: block; }
+      }
+    }
+  }
+
+  #making-connections {
+    td {
+      display: block; clear: both; float: none; text-align: center;
+      img { width: 20%; margin-bottom: 20px; }
+    }
+    .center { position: relative; left: 50%; margin-left: -112px; }
+    .feature-button { clear: both; }
+    .feature-button a { margin: 20px 0 0 0; }
+  }
+
+  #product-slider { display: none; }
+
+  #home-page-buttons {
+    ul {
+      width: 100%; padding: 0; margin: 0; position: relative;
+      // margin-left: -112px; left: 0%;
+    }
+    li {
+      clear: both; width: 100%; max-width: 100%; left: 50%;
+      margin-left: -112px; display: block; position: relative;
+    }
+    ul li a { margin: 20px 0 0 0; width: 200px; }
+  }
+
+  #still-got-questions {
+    img { margin: 0; padding: 0; }
+  }
+
+  #online-assessment-lede {
+    img { clear: both; float: none; width: 30%; margin: 0 35% 20px 35%; }
+    .feature-button {
+      left: 50%; margin-left: -112px; position: relative;
+      a { margin-right: 0; }
+    }
+  }
+  
+  #live-chat-lede {
+    img { clear: both; float: none; width: 20%; margin: 0 40% 20px 40%; }
+  }
+
+  #assessment-buttons {
+    .narrower { width: 100%; }
+    div { clear: both; float: none; }
+    img { float: none; margin: 0 auto !important; }
+  }
+
+  #live-chat-remind {
+    img { clear: both; float: none; width: 20%; margin: 0 40% 20px 40%; }
+  }
+
+  .footer-wrap p { width: 90%; margin-left: 5%; margin-right: 5%; }
+
+  #footer {
+    width: 100%; margin: 0; padding: 0;
+    .footer-logo { clear: both; }
+  }
 }
 
 
 /*-------------------------------------------------------*
 Between 768px and 1025px wide
 *-------------------------------------------------------*/
-@media only screen and (min-width: 768px)  and (max-width: 1025px) {
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
 
 }
 

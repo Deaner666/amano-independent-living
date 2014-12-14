@@ -40,6 +40,7 @@ if ( ! empty( $_SERVER['SCRIPT_FILENAME'] ) && basename( __FILE__ ) == basename(
                             <a href="/shop">I Know What I Want. <br />I'm Ready to Shop</a>
                         </div>
                     </div>
+                    <img class="connected-icon" src="wp-content/themes/mystile_child/images/icons/connections-icon.png" alt=""/>
                 </article>
 
                 <article class="full-width-feature light" id="connect-animation">
